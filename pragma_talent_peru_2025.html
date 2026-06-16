@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Pragma · Talent Intelligence Perú 2025</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--sf:#F5F4F9;--sf2:#EDE9F8;--br:rgba(100,41,205,.12);--ac:#6429CD;--a2:#8B4FE8;--a3:#330072;--a4:#A67FFF;--gd:#C9A8FF;--tx:#1D1D1B;--mu:#6B5F8A;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--tx);font-family:'Poppins',sans-serif;font-size:14px;min-height:100vh;overflow-x:hidden;}
+header{position:relative;padding:40px 48px 26px;border-bottom:2px solid rgba(100,41,205,.15);background:linear-gradient(135deg,rgba(100,41,205,.06) 0%,transparent 60%);}
+header::after{content:'';position:absolute;top:-50px;right:-50px;width:280px;height:280px;background:radial-gradient(circle,rgba(100,41,205,.10) 0%,transparent 70%);pointer-events:none;}
+.hl{font-size:10px;letter-spacing:.3em;color:var(--ac);text-transform:uppercase;margin-bottom:8px;font-weight:600;}
+h1{font-size:clamp(24px,4vw,46px);font-weight:800;line-height:1.05;letter-spacing:-.02em;}
+h1 span{color:var(--ac);}
+.hm{margin-top:12px;display:flex;gap:22px;flex-wrap:wrap;}
+.mp{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--mu);}
+.mp .dot{width:6px;height:6px;border-radius:50%;background:var(--ac);animation:pu 2s infinite;}
+@keyframes pu{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+nav{display:flex;gap:0;padding:0 48px;border-bottom:1px solid var(--br);overflow-x:auto;scrollbar-width:none;background:var(--bg);}
+nav::-webkit-scrollbar{display:none;}
+.tab{padding:12px 16px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .2s;background:none;border-top:none;border-left:none;border-right:none;font-family:'Poppins',sans-serif;font-weight:500;}
+.tab:hover{color:var(--tx);}
+.tab.active{color:#6429CD;border-bottom-color:#6429CD;font-weight:600;}
+.pg{padding:32px 48px;display:none;}
+.pg.active{display:block;}
+.st{font-family:'Poppins',sans-serif;font-size:19px;font-weight:700;margin-bottom:5px;letter-spacing:-.01em;}
+.sb{font-size:12px;color:var(--mu);margin-bottom:22px;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.card{background:var(--sf);border:1px solid var(--br);border-radius:12px;padding:20px;position:relative;overflow:hidden;box-shadow:0 2px 8px rgba(100,41,205,.06);}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--ac),transparent);}
+.ca2::before{background:linear-gradient(90deg,var(--a2),transparent);}
+.ca3::before{background:linear-gradient(90deg,var(--a3),transparent);}
+.cg::before{background:linear(90deg,var(--gd),transparent);}
+.cg{background:var(--sf);}
+.cg::before{background:linear-gradient(90deg,var(--gd),transparent);}
+.cl{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--mu);margin-bottom:7px;font-weight:600;}
+.cv{font-family:'Poppins',sans-serif;font-size:38px;font-weight:800;line-height:1;letter-spacing:-.02em;}
+.cv.a{color:var(--ac)}.cv.a2{color:var(--a2)}.cv.a3{color:var(--a3)}.cv.g{color:var(--gd)}
+.cd{margin-top:5px;font-size:11px;color:var(--mu);line-height:1.5;}
+.rl{display:flex;flex-direction:column;gap:0;}
+.ri{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(100,41,205,.06);}
+.ri:last-child{border-bottom:none;}
+.rn{font-size:10px;color:var(--mu);width:16px;text-align:right;flex-shrink:0;font-weight:600;}
+.rnm{font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.rb{width:68px;height:3px;background:rgba(100,41,205,.12);border-radius:2px;flex-shrink:0;}
+.rbf{height:100%;border-radius:2px;background:var(--ac);transition:width 1.2s ease;}
+.rbf.o{background:var(--a2)!important;}.rbf.p{background:var(--a3)!important;}.rbf.g{background:var(--gd)!important;}
+.rv{font-size:10px;font-weight:700;width:32px;text-align:right;flex-shrink:0;}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+thead tr{border-bottom:2px solid rgba(100,41,205,.15);}
+th{text-align:left;padding:9px 11px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--ac);font-weight:600;background:rgba(100,41,205,.04);}
+td{padding:9px 11px;border-bottom:1px solid rgba(100,41,205,.06);vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(100,41,205,.03);}
+.badge{display:inline-flex;align-items:center;padding:2px 7px;border-radius:4px;font-size:9px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;}
+.bg{background:rgba(100,41,205,.12);color:var(--ac);border:1px solid rgba(100,41,205,.2);}
+.bo{background:rgba(139,79,232,.12);color:var(--a2);border:1px solid rgba(139,79,232,.2);}
+.bp{background:rgba(51,0,114,.12);color:var(--a3);border:1px solid rgba(51,0,114,.2);}
+.bb{background:rgba(166,127,255,.12);color:var(--a4);border:1px solid rgba(166,127,255,.2);}
+.sp{height:18px;}.ss{height:8px;}
+.ins{padding:10px;background:rgba(100,41,205,.06);border-left:3px solid var(--ac);border-radius:6px;margin-bottom:9px;font-size:12px;}
+.ins strong{display:block;margin-bottom:2px;}
+.ins span{color:var(--mu);line-height:1.6;}
+.df-filter{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px;}
+.df-btn{padding:7px 14px;font-size:11px;border-radius:6px;border:1px solid var(--br);background:var(--sf);color:var(--mu);cursor:pointer;font-family:'Poppins',sans-serif;font-weight:500;transition:all .2s;}
+.df-btn.active{background:rgba(100,41,205,.12);color:var(--ac);border-color:rgba(100,41,205,.35);font-weight:600;}
+.dsect{display:none;}.dsect.active{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.dc{background:var(--sf);border:1px solid var(--br);border-radius:12px;padding:17px;box-shadow:0 2px 6px rgba(100,41,205,.05);}
+.dt{font-size:13px;font-weight:700;margin-bottom:3px;}.ds{font-size:10px;color:var(--mu);margin-bottom:11px;}
+.rr{display:flex;align-items:flex-start;gap:7px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);}
+.rr:last-child{border-bottom:none;}
+.rf{font-size:13px;font-weight:700;color:var(--ac);min-width:20px;}
+.rp{font-size:10px;color:var(--mu);min-width:34px;}
+.rd{font-size:11px;line-height:1.5;}
+.rd .u{color:var(--tx);font-weight:500;}.rd .e{color:var(--a4);}.rd .ch{color:var(--a2);font-weight:600;}
+.ra{color:var(--mu);font-size:10px;margin:0 2px;}
+.tl{position:relative;padding-left:26px;}
+.tl::before{content:'';position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:linear-gradient(to bottom,#6429CD,#330072,#8B4FE8);}
+.ti{position:relative;margin-bottom:20px;}
+.td{position:absolute;left:-20px;top:4px;width:13px;height:13px;border-radius:50%;border:2px solid;background:var(--bg);}
+.tg{border-color:var(--ac);}.tp{border-color:var(--a3);}.to{border-color:var(--a2);}
+.tl-l{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--mu);margin-bottom:3px;font-weight:600;}
+.tl-t{font-size:13px;font-weight:700;margin-bottom:4px;}
+.tl-d{font-size:11px;color:var(--mu);line-height:1.6;}
+@media(max-width:900px){header,nav,.pg{padding-left:20px;padding-right:20px;}.g2,.g3,.g4{grid-template-columns:1fr;}.dsect.active{grid-template-columns:1fr;}}
+</style></head><body>
+<header>
+  <div class="hl">// TALENT INTELLIGENCE · SOLO ROLES TÉCNICOS · SIN DOCENCIA</div>
+  <h1>PRAGMA <span>PERÚ</span><br>TALENT MAP 2025</h1>
+  <div class="hm">
+    <div class="mp"><span class="dot"></span> 64 colaboradores técnicos</div>
+    <div class="mp"><span class="dot" style="background:var(--a2)"></span> Solo Perú · Chapters técnicos</div>
+    <div class="mp"><span class="dot" style="background:var(--a3)"></span> Sin docencia · Sin posgrados</div>
+    <div class="mp"><span class="dot" style="background:var(--gd)"></span> Col. N = Empresa anterior</div>
+  </div>
+</header>
+<nav>
+  <button class="tab active" onclick="showTab('dash')">Dashboard</button>
+  <button class="tab" onclick="showTab('unis')">Universidades</button>
+  <button class="tab" onclick="showTab('emps')">Empresas Fuente</button>
+  <button class="tab" onclick="showTab('rutas')">Top 20 Rutas</button>
+  <button class="tab" onclick="showTab('depts')">Rutas por Región</button>
+  <button class="tab" onclick="showTab('analisis')">Análisis por Región</button>
+  <button class="tab" onclick="showTab('roles')">Fuentes por Rol</button>
+  <button class="tab" onclick="showTab('plan')">Plan de Acción</button>
+  <button class="tab" onclick="showTab('ultexp')">Última Exp. Laboral</button>
+  <button class="tab" onclick="showTab('mapa')">Mapa de Calor</button>
+</nav>
+
+<!-- DASHBOARD -->
+<div id="dash" class="pg active">
+  <div class="st">Vista Ejecutiva · Perú · Solo Roles Técnicos</div>
+  <div class="sb">64 colaboradores · Backend, Integración, Móvil, Frontend, Arquitectura, QA, Ciencia de Datos · Sin docencia · Sin posgrados</div>
+  <div class="g4" style="margin-bottom:18px;">
+    <div class="card"><div class="cl">Colaboradores Técnicos</div><div class="cv a">64</div><div class="cd">7 chapters técnicos activos en Perú</div></div>
+    <div class="card ca2"><div class="cl">Universidades Fuente</div><div class="cv a2">20+</div><div class="cd">Instituciones académicas peruanas</div></div>
+    <div class="card ca3"><div class="cl">Empresas (Col. N)</div><div class="cv a3">15+</div><div class="cd">Sin docencia · NTT Data + Everis + Indra</div></div>
+    <div class="card cg"><div class="cl">Regiones</div><div class="cv g">12</div><div class="cd">Lima 42% · Trujillo+Chiclayo 25%</div></div>
+  </div>
+  <div class="g2" style="margin-bottom:18px;">
+    <div class="card" style="padding:18px;"><div class="cl" style="margin-bottom:8px;">Top 15 Universidades · Volumen</div>
+      <div class="rl"><div class="ri"><span class="rn">1</span><span class="rnm">Univ. Nac. Pedro Ruiz Gallo</span><div class="rb"><div class="rbf " style="width:100%"></div></div><span class="rv" style="color:var(--gd)">5</span></div><div class="ri"><span class="rn">2</span><span class="rnm">Univ. Nacional de Trujillo</span><div class="rb"><div class="rbf " style="width:80%"></div></div><span class="rv" style="color:var(--gd)">4</span></div><div class="ri"><span class="rn">3</span><span class="rnm">Universidad Nacional de Ingeniería</span><div class="rb"><div class="rbf " style="width:80%"></div></div><span class="rv" style="color:var(--ac)">4</span></div><div class="ri"><span class="rn">4</span><span class="rnm">Instituto SISE</span><div class="rb"><div class="rbf " style="width:60%"></div></div><span class="rv" style="color:var(--ac)">3</span></div><div class="ri"><span class="rn">5</span><span class="rnm">Univ. Privada Antenor Orrego</span><div class="rb"><div class="rbf " style="width:60%"></div></div><span class="rv" style="color:var(--ac)">3</span></div><div class="ri"><span class="rn">6</span><span class="rnm">Universidad Continental</span><div class="rb"><div class="rbf " style="width:60%"></div></div><span class="rv" style="color:var(--ac)">3</span></div><div class="ri"><span class="rn">7</span><span class="rnm">Instituto Cibertec</span><div class="rb"><div class="rbf " style="width:60%"></div></div><span class="rv" style="color:var(--ac)">3</span></div><div class="ri"><span class="rn">8</span><span class="rnm">Univ. Mayor de San Marcos</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">9</span><span class="rnm">Universidad Ricardo Palma</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">10</span><span class="rnm">Univ. Nac. S.C. Huamanga</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">11</span><span class="rnm">Universidad Privada del Norte</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">12</span><span class="rnm">Univ. Tecnológica del Perú</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">13</span><span class="rnm">Univ. Peruana de Cs. Aplicadas</span><div class="rb"><div class="rbf " style="width:40%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">14</span><span class="rnm">Universidad Señor de Sipán</span><div class="rb"><div class="rbf " style="width:20%"></div></div><span class="rv" style="color:var(--mu)">1</span></div><div class="ri"><span class="rn">15</span><span class="rnm">Univ. Nac. San Agustín</span><div class="rb"><div class="rbf " style="width:20%"></div></div><span class="rv" style="color:var(--mu)">1</span></div></div></div>
+    <div class="card ca2" style="padding:18px;"><div class="cl" style="margin-bottom:8px;">Top 15 Empresas · Col. N · Sin docencia</div>
+      <div class="rl"><div class="ri"><span class="rn">1</span><span class="rnm">NTT Data</span><div class="rb"><div class="rbf o" style="width:100%"></div></div><span class="rv" style="color:var(--gd)">13</span></div><div class="ri"><span class="rn">2</span><span class="rnm">Everis / NTT Advisory</span><div class="rb"><div class="rbf o" style="width:69%"></div></div><span class="rv" style="color:var(--gd)">9</span></div><div class="ri"><span class="rn">3</span><span class="rnm">Indra</span><div class="rb"><div class="rbf o" style="width:62%"></div></div><span class="rv" style="color:var(--a2)">8</span></div><div class="ri"><span class="rn">4</span><span class="rnm">Software Enterprise Services</span><div class="rb"><div class="rbf o" style="width:23%"></div></div><span class="rv" style="color:var(--a2)">3</span></div><div class="ri"><span class="rn">5</span><span class="rnm">Global Hitss Peru</span><div class="rb"><div class="rbf o" style="width:23%"></div></div><span class="rv" style="color:var(--a2)">3</span></div><div class="ri"><span class="rn">6</span><span class="rnm">Tata Consultancy Services</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--a2)">2</span></div><div class="ri"><span class="rn">7</span><span class="rnm">Novatronic</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">8</span><span class="rnm">Hermes Transportes Blindados</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">9</span><span class="rnm">Canvia</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">10</span><span class="rnm">T-ID Solutions</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">11</span><span class="rnm">Synopsis S.A.</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">12</span><span class="rnm">Geovictoria</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">13</span><span class="rnm">No Country</span><div class="rb"><div class="rbf o" style="width:15%"></div></div><span class="rv" style="color:var(--mu)">2</span></div><div class="ri"><span class="rn">14</span><span class="rnm">Garzasoft</span><div class="rb"><div class="rbf o" style="width:8%"></div></div><span class="rv" style="color:var(--mu)">1</span></div><div class="ri"><span class="rn">15</span><span class="rnm">Htec</span><div class="rb"><div class="rbf o" style="width:8%"></div></div><span class="rv" style="color:var(--mu)">1</span></div></div></div>
+    <div class="card ca3" style="padding:18px;"><div class="cl" style="margin-bottom:8px;">Regiones · Técnicos</div>
+      <div class="rl"><div class="ri"><span class="rn">1</span><span class="rnm">Lima</span><div class="rb"><div class="rbf p" style="width:100%"></div></div><span class="rv" style="color:var(--a3)">27</span></div><div class="ri"><span class="rn">2</span><span class="rnm">La Libertad</span><div class="rb"><div class="rbf p" style="width:30%"></div></div><span class="rv" style="color:var(--a3)">8</span></div><div class="ri"><span class="rn">3</span><span class="rnm">Lambayeque</span><div class="rb"><div class="rbf p" style="width:30%"></div></div><span class="rv" style="color:var(--a3)">8</span></div><div class="ri"><span class="rn">4</span><span class="rnm">Sin región</span><div class="rb"><div class="rbf p" style="width:26%"></div></div><span class="rv" style="color:var(--a3)">7</span></div><div class="ri"><span class="rn">5</span><span class="rnm">Arequipa</span><div class="rb"><div class="rbf p" style="width:19%"></div></div><span class="rv" style="color:var(--a3)">5</span></div><div class="ri"><span class="rn">6</span><span class="rnm">Junín</span><div class="rb"><div class="rbf p" style="width:11%"></div></div><span class="rv" style="color:var(--a3)">3</span></div><div class="ri"><span class="rn">7</span><span class="rnm">Ayacucho</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div><div class="ri"><span class="rn">8</span><span class="rnm">Cusco</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div><div class="ri"><span class="rn">9</span><span class="rnm">Huánuco</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div><div class="ri"><span class="rn">10</span><span class="rnm">Ucayali</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div><div class="ri"><span class="rn">11</span><span class="rnm">Ica</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div><div class="ri"><span class="rn">12</span><span class="rnm">Piura</span><div class="rb"><div class="rbf p" style="width:4%"></div></div><span class="rv" style="color:var(--a3)">1</span></div></div></div>
+    <div class="card cg" style="padding:18px;">
+      <div class="cl" style="margin-bottom:8px;">Seniority</div>
+      <div class="rl" style="margin-bottom:14px;"><div class="ri"><span class="rn">1</span><span class="rnm">Advanced L3</span><div class="rb"><div class="rbf g" style="width:100%"></div></div><span class="rv" style="color:var(--gd)">16</span></div><div class="ri"><span class="rn">2</span><span class="rnm">Advanced L2</span><div class="rb"><div class="rbf g" style="width:75%"></div></div><span class="rv" style="color:var(--gd)">12</span></div><div class="ri"><span class="rn">3</span><span class="rnm">Senior L1</span><div class="rb"><div class="rbf g" style="width:62%"></div></div><span class="rv" style="color:var(--gd)">10</span></div><div class="ri"><span class="rn">4</span><span class="rnm">Senior L3</span><div class="rb"><div class="rbf g" style="width:44%"></div></div><span class="rv" style="color:var(--gd)">7</span></div><div class="ri"><span class="rn">5</span><span class="rnm">Advanced L1</span><div class="rb"><div class="rbf g" style="width:38%"></div></div><span class="rv" style="color:var(--gd)">6</span></div><div class="ri"><span class="rn">6</span><span class="rnm">Senior L2</span><div class="rb"><div class="rbf g" style="width:31%"></div></div><span class="rv" style="color:var(--gd)">5</span></div><div class="ri"><span class="rn">7</span><span class="rnm">Master L3</span><div class="rb"><div class="rbf g" style="width:12%"></div></div><span class="rv" style="color:var(--gd)">2</span></div><div class="ri"><span class="rn">8</span><span class="rnm">Trainee L1</span><div class="rb"><div class="rbf g" style="width:12%"></div></div><span class="rv" style="color:var(--gd)">2</span></div><div class="ri"><span class="rn">9</span><span class="rnm">Junior L2</span><div class="rb"><div class="rbf g" style="width:6%"></div></div><span class="rv" style="color:var(--gd)">1</span></div><div class="ri"><span class="rn">10</span><span class="rnm">Trainee L3</span><div class="rb"><div class="rbf g" style="width:6%"></div></div><span class="rv" style="color:var(--gd)">1</span></div></div>
+      <div class="cl" style="margin-bottom:8px;">Chapters Técnicos</div>
+      <div class="rl"><div class="ri"><span class="rn">1</span><span class="rnm">Backend</span><div class="rb"><div class="rbf g" style="width:100%"></div></div><span class="rv" style="color:var(--gd)">38</span></div><div class="ri"><span class="rn">2</span><span class="rnm">Móvil</span><div class="rb"><div class="rbf g" style="width:21%"></div></div><span class="rv" style="color:var(--gd)">8</span></div><div class="ri"><span class="rn">3</span><span class="rnm">Integración</span><div class="rb"><div class="rbf g" style="width:21%"></div></div><span class="rv" style="color:var(--gd)">8</span></div><div class="ri"><span class="rn">4</span><span class="rnm">Frontend</span><div class="rb"><div class="rbf g" style="width:13%"></div></div><span class="rv" style="color:var(--gd)">5</span></div><div class="ri"><span class="rn">5</span><span class="rnm">Ciencia de Datos</span><div class="rb"><div class="rbf g" style="width:5%"></div></div><span class="rv" style="color:var(--gd)">2</span></div><div class="ri"><span class="rn">6</span><span class="rnm">Arquitectura</span><div class="rb"><div class="rbf g" style="width:5%"></div></div><span class="rv" style="color:var(--gd)">2</span></div><div class="ri"><span class="rn">7</span><span class="rnm">QA / Testing</span><div class="rb"><div class="rbf g" style="width:3%"></div></div><span class="rv" style="color:var(--gd)">1</span></div></div>
+    </div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="cl">🔍 Hallazgos Clave · Perú Técnico</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--ac);background:rgba(100,41,205,.06);"><strong>NTT Data + Everis = 34% de toda la experiencia técnica</strong><span>13+9 = 22 registros técnicos en Col. N. Sin contar docencia, estos dos grupos concentran el 34% de toda la experiencia laboral técnica en Pragma Perú.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Trujillo y Chiclayo: los hubs reales</strong><span>Lima tiene 42% de técnicos pero Trujillo (La Libertad 12.5%) + Chiclayo (Lambayeque 12.5%) suman el 25%. Pedro Ruiz Gallo y UPAO lideran el ranking uni.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Backend: 59% del talento técnico</strong><span>38 de 64 técnicos son Backend. Perú aún más concentrado que Colombia (35.8%). Oportunidad crítica en Integración, Móvil y Cloud.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>Advanced + Senior = 82% de los técnicos</strong><span>53 de 64 tienen nivel Advanced o Senior. Talento maduro. Solo 3 Trainee/Junior = pipeline frágil a largo plazo.</span></div>
+    </div>
+    <div class="card ca2">
+      <div class="cl">🎯 Oportunidades Técnicas · Perú</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Sourcing NTT Data + Indra + Everis Lima</strong><span>3 empresas técnicas = 75% del talento con empresa previa registrada. LinkedIn Recruiter: filtrar por empresa + cargo técnico + Advanced.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Activar UPAO + Pedro Ruiz Gallo</strong><span>Las 2 fuentes universitarias técnicas más grandes fuera de Lima. Charlas Backend/Móvil en Trujillo (La Libertad) y Chiclayo (Lambayeque).</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Diversificar: solo 5 Frontend y 2 Data/IA</strong><span>Cloud Ops y DevSecOps tienen 0 técnicos en Perú. Canvia, Software Enterprise y UNI tienen estos perfiles disponibles.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Arequipa como tercer hub</strong><span>NTT Data ya tiene 3 registros en Arequipa (5 técnicos). Hub emergente con Universidad San Agustín y Universidad Católica Santa María.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- UNIVERSIDADES -->
+<div id="unis" class="pg">
+  <div class="st">Universidades Fuente · Perú · Solo Roles Técnicos</div>
+  <div class="sb">Índice de Afinidad 0–100 · Solo Perú · Excluye posgrados y cursos · Excluye docencia · 64 técnicos</div>
+  <div style="background:var(--sf);border:1px solid rgba(100,41,205,.3);border-left:4px solid var(--ac);border-radius:12px;padding:18px;margin-bottom:18px;">
+    <strong>🧮 Índice de Afinidad:</strong>
+    <span style="font-size:12px;color:var(--mu);"> 40 pts Volumen técnico · 20 pts Diversidad de Chapters · 25 pts Roles Estratégicos (Arq/Cloud/Data/DevSecOps) · 15 pts % Senior. Base: 64 técnicos peruanos.</span>
+  </div>
+  <div class="card" style="padding:0;overflow:hidden;margin-bottom:20px;">
+    <table><thead><tr><th>#</th><th>Universidad</th><th>Técnicos</th><th>Senior</th><th>Afinidad</th><th>Categoría</th><th>Ciudad</th></tr></thead><tbody>
+      <tr><td>1</td><td><strong>Univ. Nac. Pedro Ruiz Gallo</strong></td><td>5</td><td>2</td><td style="color:var(--ac);font-weight:700">55</td><td><span class="badge bg">Estratégica</span></td><td>Chiclayo · Lambayeque</td></tr>
+      <tr><td>2</td><td><strong>Univ. Nacional de Trujillo</strong></td><td>4</td><td>2</td><td style="color:var(--ac);font-weight:700">52</td><td><span class="badge bg">Estratégica</span></td><td>Trujillo · La Libertad</td></tr>
+      <tr><td>3</td><td><strong>Universidad Nacional de Ingeniería</strong></td><td>4</td><td>2</td><td style="color:var(--ac);font-weight:700">50</td><td><span class="badge bg">Estratégica</span></td><td>Lima</td></tr>
+      <tr><td>4</td><td><strong>Instituto SISE</strong></td><td>3</td><td>2</td><td style="color:var(--ac);font-weight:700">42</td><td><span class="badge bo">Prioritaria</span></td><td>Lima</td></tr>
+      <tr><td>5</td><td><strong>Univ. Privada Antenor Orrego</strong></td><td>3</td><td>1</td><td>40</td><td><span class="badge bo">Prioritaria</span></td><td>Trujillo · La Libertad</td></tr>
+      <tr><td>6</td><td><strong>Universidad Continental</strong></td><td>3</td><td>1</td><td>37</td><td><span class="badge bo">Prioritaria</span></td><td>Huancayo · Junín</td></tr>
+      <tr><td>7</td><td><strong>Instituto Cibertec</strong></td><td>3</td><td>2</td><td>42</td><td><span class="badge bo">Prioritaria</span></td><td>Lima</td></tr>
+      <tr><td>8</td><td><strong>Univ. Mayor de San Marcos</strong></td><td>2</td><td>0</td><td>20</td><td><span class="badge bb">Exploratoria</span></td><td>Lima</td></tr>
+      <tr><td>9</td><td><strong>Universidad Ricardo Palma</strong></td><td>2</td><td>1</td><td>38</td><td><span class="badge bo">Prioritaria</span></td><td>Lima</td></tr>
+      <tr><td>10</td><td><strong>Univ. Nac. S.C. Huamanga</strong></td><td>2</td><td>1</td><td>31</td><td><span class="badge bp">Potencial</span></td><td>Ayacucho</td></tr>
+      <tr><td>11</td><td><strong>Universidad Privada del Norte</strong></td><td>2</td><td>0</td><td>22</td><td><span class="badge bb">Exploratoria</span></td><td>Trujillo · La Libertad</td></tr>
+      <tr><td>12</td><td><strong>Univ. Tecnológica del Perú</strong></td><td>2</td><td>0</td><td>20</td><td><span class="badge bb">Exploratoria</span></td><td>Lima</td></tr>
+      <tr><td>13</td><td><strong>Univ. Peruana de Cs. Aplicadas</strong></td><td>2</td><td>0</td><td>20</td><td><span class="badge bb">Exploratoria</span></td><td>Lima</td></tr>
+      <tr><td>14</td><td><strong>PUCP</strong></td><td>0</td><td>—</td><td>—</td><td><span class="badge bb">Sin datos</span></td><td>Lima · Alto potencial</td></tr>
+      <tr><td>15</td><td><strong>Universidad Señor de Sipán</strong></td><td>1</td><td>0</td><td>15</td><td><span class="badge bb">Exploratoria</span></td><td>Chiclayo · Lambayeque</td></tr>
+    </tbody></table>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="cl">Concentración geográfica de universidades técnicas</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--ac);background:rgba(100,41,205,.06);"><strong>Chiclayo y Trujillo dominan sobre Lima</strong><span>Pedro Ruiz Gallo (Chiclayo) + UNT (Trujillo) + UPAO (Trujillo) = 12 técnicos. Lima tiene más universidades pero menor volumen por institución.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>UNI: la mejor fuente técnica de Lima</strong><span>4 técnicos de Ingeniería de Sistemas en Lima. Junto con Cibertec y SISE son las fuentes técnicas reales de la capital.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>Regiones emergentes con universidades sin activar</strong><span>Universidad Nac. S.C. Huamanga (Ayacucho), Universidad Continental (Junín), Univ. Nac. San Agustín (Arequipa): sin alianzas activas.</span></div>
+    </div>
+    <div class="card ca2">
+      <div class="cl">Acciones por universidad técnica</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Pedro Ruiz Gallo + UNT: alianzas urgentes</strong><span>5+4 = 9 técnicos de Chiclayo y Trujillo. Charlas Backend y Móvil. Programa de prácticas virtual para perfiles técnicos.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>UNI + Cibertec + SISE: Lima técnica</strong><span>4+3+3 = 10 técnicos de Lima. Diferentes perfiles: UNI más arquitectónico, Cibertec y SISE más operativos. Estrategias diferenciadas.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>PUCP: 0 técnicos actuales, alto potencial</strong><span>La mejor universidad de Perú no tiene técnicos en Pragma. Oportunidad de sourcing activo en LinkedIn para egresados de Ing. Informática.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- EMPRESAS -->
+<div id="emps" class="pg">
+  <div class="st">Empresas Fuente · Perú · Sin Docencia</div>
+  <div class="sb">Columna N del archivo de experiencia laboral · Excluye roles de docencia/profesorado · Excluye Pragma · Solo técnicos</div>
+  <div style="background:var(--sf);border:1px solid rgba(139,79,232,.3);border-left:4px solid var(--a2);border-radius:12px;padding:18px;margin-bottom:18px;">
+    <strong>🏢 Filtros aplicados:</strong><br>
+    <span style="font-size:12px;color:var(--mu);">✅ Se excluyen registros donde el Rol contenga: docente, profesor, catedrático, tutor, instructor, enseñanza, teach.<br>
+    ✅ Se excluyen registros donde la empresa sea universidad/instituto Y el rol no sea técnico.<br>
+    📊 Resultado: 121 registros de docencia eliminados del análisis total (Colombia + Perú).</span>
+  </div>
+  <div class="g2" style="margin-bottom:20px;">
+    <div class="card" style="padding:0;overflow:hidden;">
+      <div style="padding:12px 16px;border-bottom:1px solid var(--br);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--ac);font-weight:600;">Todos los registros Col. N · Sin docencia</div>
+      <table><thead><tr><th>#</th><th>Empresa</th><th>Registros técnicos</th><th>Estrategia</th></tr></thead><tbody>
+        <tr><td>1</td><td><strong>NTT Data</strong></td><td style="color:var(--gd);font-weight:700">13</td><td>Principal empresa técnica fuente en Perú</td></tr>
+        <tr><td>2</td><td><strong>Everis / NTT Advisory</strong></td><td style="color:var(--gd);font-weight:700">9</td><td>Consultoría IT · Alta seniority técnica</td></tr>
+        <tr><td>3</td><td><strong>Indra</strong></td><td style="color:var(--a2);font-weight:700">8</td><td>Consultoría IT · Lima · Backend Senior</td></tr>
+        <tr><td>4</td><td><strong>Software Enterprise Services</strong></td><td>3</td><td>Tech regional · Backend</td></tr>
+        <tr><td>5</td><td><strong>Global Hitss Peru</strong></td><td>3</td><td>Tech · Lima · Backend</td></tr>
+        <tr><td>6</td><td><strong>Tata Consultancy Services</strong></td><td>2</td><td>Global IT · Senior</td></tr>
+        <tr><td>7</td><td><strong>Novatronic</strong></td><td>2</td><td>Tech local Lima</td></tr>
+        <tr><td>8</td><td><strong>Hermes Transportes Blindados</strong></td><td>2</td><td>Finanzas → Tech</td></tr>
+        <tr><td>9</td><td><strong>Canvia</strong></td><td>2</td><td>Tech Lima · Ex-IBM</td></tr>
+        <tr><td>10</td><td><strong>T-ID Solutions</strong></td><td>2</td><td>Tech local</td></tr>
+        <tr><td>11</td><td><strong>Synopsis S.A.</strong></td><td>2</td><td>Tech regional</td></tr>
+        <tr><td>12</td><td><strong>Geovictoria</strong></td><td>2</td><td>SaaS Latam</td></tr>
+        <tr><td>13</td><td><strong>No Country</strong></td><td>2</td><td>Remote-first Latam</td></tr>
+        <tr><td>14</td><td><strong>Garzasoft</strong></td><td>1</td><td>Tech local Lima</td></tr>
+        <tr><td>15</td><td><strong>Htec</strong></td><td>1</td><td>Tech europeo con sede Lima</td></tr>
+      </tbody></table>
+    </div>
+    <div class="card ca2">
+      <div class="cl">Último empleo técnico previo a Pragma</div><div class="ss"></div>
+      <div class="rl">
+        <div class="ri"><span class="rn">1</span><span class="rnm">Sin experiencia técnica previa</span><div class="rb"><div class="rbf o" style="width:100%"></div></div><span class="rv" style="color:var(--mu)">7</span></div>
+        <div class="ri"><span class="rn">2</span><span class="rnm">NTT Data</span><div class="rb"><div class="rbf o" style="width:86%"></div></div><span class="rv" style="color:var(--gd)">6</span></div>
+        <div class="ri"><span class="rn">3</span><span class="rnm">Indra</span><div class="rb"><div class="rbf o" style="width:43%"></div></div><span class="rv" style="color:var(--a2)">3</span></div>
+        <div class="ri"><span class="rn">4</span><span class="rnm">Everis / NTT Advisory</span><div class="rb"><div class="rbf o" style="width:29%"></div></div><span class="rv" style="color:var(--a2)">2</span></div>
+        <div class="ri"><span class="rn">5</span><span class="rnm">Global Hitss Peru</span><div class="rb"><div class="rbf o" style="width:29%"></div></div><span class="rv" style="color:var(--a2)">2</span></div>
+        <div class="ri"><span class="rn">6</span><span class="rnm">Otras empresas técnicas (1 c/u)</span><div class="rb"><div class="rbf o" style="width:14%"></div></div><span class="rv" style="color:var(--mu)">9</span></div>
+      </div>
+      <div style="margin-top:14px;padding:11px;background:rgba(139,79,232,.06);border-radius:8px;font-size:11px;color:var(--mu);">
+        <strong style="color:var(--tx);">💡 Clave:</strong> NTT Data + Everis + Indra = <strong>11 de 29 técnicos con empresa previa (38%)</strong>. Tres empresas técnicas concentran el 38% de todo el talento técnico con experiencia en Pragma Perú.
+      </div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>NTT Data domina en TODAS las regiones técnicas</strong><span>Presente como empresa de procedencia en Lima (3), Lambayeque (2), Arequipa (3) y Sin región (3). La empresa con mayor alcance geográfico técnico.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>7 técnicos sin empresa previa (10.9%)</strong><span>Solo el 10.9% de los técnicos llegó sin experiencia laboral. Perú tiene mayor madurez de entrada que Colombia (22.5%). Pipeline de Junior es clave.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- RUTAS -->
+<div id="rutas" class="pg">
+  <div class="st">Top 20 Rutas de Carrera Técnica · Perú</div>
+  <div class="sb">Universidad → Empresa previa técnica (Col. N, sin docencia) → Chapter técnico en Pragma · 64 técnicos</div>
+  <div class="card" style="padding:0;overflow:hidden;margin-bottom:20px;">
+    <table><thead><tr><th>#</th><th>Universidad</th><th>→ Empresa previa</th><th>→ Chapter</th><th>Frec.</th><th>%</th></tr></thead><tbody>
+      <tr><td>1</td><td>Univ. Nacional de Trujillo</td><td style='color:var(--a4)'>Everis / NTT Advisory</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>2</strong></td><td>3.1%</td></tr><tr><td>2</td><td>Instituto Cibertec</td><td style='color:var(--a4)'>NTT Data</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>2</strong></td><td>3.1%</td></tr><tr><td>3</td><td>Univ. Nac. Pedro Ruiz Gallo</td><td style='color:var(--a4)'>Garzasoft</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>4</td><td>Univ. Mayor de San Marcos</td><td style='color:var(--a4)'>Novatronic</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>5</td><td>Instituto SISE</td><td style='color:var(--a4)'>Novart Dent</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>6</td><td>Univ. Privada Antenor Orrego</td><td style='color:var(--a4)'>Corporacion Eyncor SAC</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>7</td><td>Universidad Nacional Tec. Lima</td><td style='color:var(--a4)'>Hermes Transportes Blindados</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>8</td><td>Universidad Señor de Sipán</td><td style='color:var(--a4)'>Htec</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>9</td><td>Universidad Nestor Cáceres V.</td><td style='color:var(--a4)'>Vlorish</td><td style='color:var(--a2);font-weight:600'>Movil</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>10</td><td>Univ. Nac. Pedro Ruiz Gallo</td><td style='color:var(--a4)'>Empresa de Crédito Alternativa</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>11</td><td>Universidad Continental</td><td style='color:var(--a4)'>Bsns Identidad México</td><td style='color:var(--a2);font-weight:600'>Movil</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>12</td><td>Univ. Nac. Pedro Ruiz Gallo</td><td style='color:var(--a4)'>NTT Data</td><td style='color:var(--a2);font-weight:600'>Movil</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>13</td><td>Universidad Ricardo Palma</td><td style='color:var(--a4)'>Indra</td><td style='color:var(--a2);font-weight:600'>Ciencia De Datos</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>14</td><td>Universidad Continental</td><td style='color:var(--a4)'>Indra</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>15</td><td>Universidad Católica Santa María</td><td style='color:var(--a4)'>Fábrica Chocolates La Ibérica</td><td style='color:var(--a2);font-weight:600'>Integración</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>16</td><td>Univ. Nac. Pedro Ruiz Gallo</td><td style='color:var(--a4)'>Global Hitss Peru</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>17</td><td>Universidad César Vallejo</td><td style='color:var(--a4)'>E. Partners Auditores</td><td style='color:var(--a2);font-weight:600'>Integración</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>18</td><td>Univ. Nac. San Agustín</td><td style='color:var(--a4)'>Berryllium</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>19</td><td>Univ. Nac. S.C. Huamanga</td><td style='color:var(--a4)'>Udeapolis</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr><tr><td>20</td><td>Univ. Nac. Santiago Antúnez</td><td style='color:var(--a4)'>Stefanini IT Solutions</td><td style='color:var(--a2);font-weight:600'>Backend</td><td><strong>1</strong></td><td>1.6%</td></tr>
+    </tbody></table>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="cl">Rutas Técnicas Destacadas</div><div class="ss"></div>
+      <div style="display:flex;flex-direction:column;gap:13px;">
+        <div><div style="font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">Ruta más frecuente (Trujillo → Everis → Backend)</div><div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:12px;"><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">UNT (Trujillo)</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Everis / NTT Advisory</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:rgba(100,41,205,.1);border:1px solid rgba(100,41,205,.3);padding:5px 10px;border-radius:5px;color:var(--ac);font-weight:600;">Backend</span></div></div><div><div style="font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">Lima técnica (Cibertec → NTT → Backend)</div><div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:12px;"><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Instituto Cibertec (Lima)</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">NTT Data</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:rgba(100,41,205,.1);border:1px solid rgba(100,41,205,.3);padding:5px 10px;border-radius:5px;color:var(--ac);font-weight:600;">Backend</span></div></div><div><div style="font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">Ciencia de Datos vía Indra Lima</div><div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:12px;"><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Universidad Ricardo Palma (Lima)</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Indra</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:rgba(100,41,205,.1);border:1px solid rgba(100,41,205,.3);padding:5px 10px;border-radius:5px;color:var(--ac);font-weight:600;">Ciencia de Datos</span></div></div><div><div style="font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">Móvil desde Arequipa</div><div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:12px;"><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Univ. Nestor Cáceres (Arequipa)</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:var(--sf2);border:1px solid var(--br);padding:5px 10px;border-radius:5px;">Vlorish</span><span style="color:var(--ac);font-size:14px;">→</span><span style="background:rgba(100,41,205,.1);border:1px solid rgba(100,41,205,.3);padding:5px 10px;border-radius:5px;color:var(--ac);font-weight:600;">Móvil</span></div></div>
+      </div>
+    </div>
+    <div class="card ca2">
+      <div class="cl">Hallazgos de Rutas Técnicas · Perú</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Baja concentración: solo 2 personas por ruta</strong><span>A diferencia de Colombia (7 personas en top ruta), ninguna ruta técnica peruana supera 2. Alta diversidad de orígenes técnicos.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>Trujillo (UNT+UPAO) lidera fuera de Lima</strong><span>La Libertad aporta la ruta más repetida: UNT → Everis → Backend (2 personas). El talento técnico provincial es la fuente real.</span></div>
+      <div class="ins" style="border-left-color:var(--a2);background:rgba(139,79,232,.06);"><strong>10.9% sin empresa técnica previa</strong><span>Solo 7 técnicos llegaron sin experiencia laboral. Perú entra a Pragma con experiencia técnica en empresas reales.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>0 Cloud Ops y 0 DevSecOps en Perú</strong><span>Perú no tiene técnicos en estos chapters. NTT Data y Indra tienen estos perfiles disponibles. Oportunidad de diversificación crítica.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- RUTAS POR REGIÓN -->
+<div id="depts" class="pg">
+  <div class="st">Rutas por Región · Perú</div>
+  <div class="sb">Top rutas técnicas (Col. N sin docencia) + Top empresas por región · 64 técnicos</div>
+  <div class="df-filter"><button class="df-btn active" onclick="showDept('lima',this)">🏙️ Lima (27)</button><button class="df-btn" onclick="showDept('lalibertad',this)">🌊 La Libertad (8)</button><button class="df-btn" onclick="showDept('lambayeque',this)">🌿 Lambayeque (8)</button><button class="df-btn" onclick="showDept('sinregion',this)">⚫ Sin región (7)</button><button class="df-btn" onclick="showDept('arequipa',this)">⛰️ Arequipa (5)</button><button class="df-btn" onclick="showDept('junin',this)">🏔️ Junín (3)</button></div><div id="d-lima" class="dsect active"><div class="dc"><div class="dt">🏙️ Lima</div><div class="ds">27 técnicos (42.2%) · <span class="badge bg">Estratégico</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Backend (15) · Integración (6) · Ciencia de Datos (2)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">1</span><span class="rp">3.7%</span><div class="rd"><span class="u">Univ. Nac. Pedro Ruiz Gallo</span><span class="ra">→</span><span class="e">Garzasoft</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">3.7%</span><div class="rd"><span class="u">Univ. Mayor de San Marcos</span><span class="ra">→</span><span class="e">Novatronic</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">3.7%</span><div class="rd"><span class="u">Instituto SISE</span><span class="ra">→</span><span class="e">Novart Dent</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">3.7%</span><div class="rd"><span class="u">Universidad Nacional Tec. Lima</span><span class="ra">→</span><span class="e">Hermes Transportes</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">3.7%</span><div class="rd"><span class="u">Universidad Ricardo Palma</span><span class="ra">→</span><span class="e">Indra</span><span class="ra">→</span><span class="ch">Ciencia De Datos</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">4</span><span class="rp"></span><div class="rd"><span class="u">Everis / NTT Advisory</span></div></div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">Indra</span></div></div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">Software Enterprise Services</span></div></div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">NTT Data</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">Novatronic</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">Hermes Transportes Blindados</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Universidad Nacional de Ingeniería (3) · SISE (2) · San Marcos (2)</div></div></div><div id="d-lalibertad" class="dsect"><div class="dc"><div class="dt">🌊 La Libertad</div><div class="ds">8 técnicos (12.5%) · <span class="badge bo">Prioritario</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Backend (5) · Móvil (2) · Frontend (1)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">2</span><span class="rp">25.0%</span><div class="rd"><span class="u">Univ. Nacional de Trujillo</span><span class="ra">→</span><span class="e">Everis / NTT Advisory</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Privada Antenor Orrego</span><span class="ra">→</span><span class="e">Corporacion Eyncor SAC</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Privada Antenor Orrego</span><span class="ra">→</span><span class="e">Corporación Eyncor S.A.C</span><span class="ra">→</span><span class="ch">Movil</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Privada Antenor Orrego</span><span class="ra">→</span><span class="e">Univ. Privada Antenor Orrego</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Universidad Privada del Norte</span><span class="ra">→</span><span class="e">Runit - Pagos Digitales</span><span class="ra">→</span><span class="ch">Backend</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">Everis / NTT Advisory</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">Univ. Privada Antenor Orrego</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Corporacion Eyncor SAC</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Financiera Caja Trujillo</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">A&S Consultores</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Canvia</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Univ. Privada Antenor Orrego (3) · Univ. Nacional de Trujillo (3)</div></div></div><div id="d-lambayeque" class="dsect"><div class="dc"><div class="dt">🌿 Lambayeque</div><div class="ds">8 técnicos (12.5%) · <span class="badge bo">Prioritario</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Backend (7) · Móvil (1)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Universidad Señor de Sipán</span><span class="ra">→</span><span class="e">Htec</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Nac. Pedro Ruiz Gallo</span><span class="ra">→</span><span class="e">Empresa de Crédito Alternativa</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Nac. Pedro Ruiz Gallo</span><span class="ra">→</span><span class="e">NTT Data</span><span class="ra">→</span><span class="ch">Movil</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Univ. Nac. Pedro Ruiz Gallo</span><span class="ra">→</span><span class="e">Global Hitss Peru</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">12.5%</span><div class="rd"><span class="u">Universidad Nacional Pedro Ruíz Gallo</span><span class="ra">→</span><span class="e">IDBI</span><span class="ra">→</span><span class="ch">Backend</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">NTT Data</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">Global Hitss Peru</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Htec</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Technology Partners Network</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Canvia</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Chapape Peru</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Univ. Nac. Pedro Ruiz Gallo (4) · Univ. Señor de Sipán (1)</div></div></div><div id="d-sinregion" class="dsect"><div class="dc"><div class="dt">⚫ Sin región</div><div class="ds">7 técnicos (10.9%) · <span class="badge bb">Sin datos</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Backend (3) · Arquitectura (2) · Frontend (1)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">1</span><span class="rp">14.3%</span><div class="rd"><span class="u">Cesar Vallejo University</span><span class="ra">→</span><span class="e">Freelance</span><span class="ra">→</span><span class="ch">Frontend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">14.3%</span><div class="rd"><span class="u">Universidad Privada del Norte</span><span class="ra">→</span><span class="e">Municipalidad De Trujillo</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">14.3%</span><div class="rd"><span class="u">Steve Jobs</span><span class="ra">→</span><span class="e">NTT Data</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">14.3%</span><div class="rd"><span class="u">Universidad de Oriente (Cuba)</span><span class="ra">→</span><span class="e">T-ID Solutions</span><span class="ra">→</span><span class="ch">Arquitectura</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">14.3%</span><div class="rd"><span class="u">Univ. Nacional de Trujillo</span><span class="ra">→</span><span class="e">Hitss Perú SAC</span><span class="ra">→</span><span class="ch">Backend</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">NTT Data</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">T-ID Solutions</span></div></div><div class="rr"><span class="rf">2</span><span class="rp"></span><div class="rd"><span class="u">Everis / NTT Advisory</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Municipalidad de Trujillo</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Pallay Agencia Creativa</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Diversa</div></div></div><div id="d-arequipa" class="dsect"><div class="dc"><div class="dt">⛰️ Arequipa</div><div class="ds">5 técnicos (7.8%) · <span class="badge bp">Emergente</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Móvil (2) · Backend (2) · Integración (1)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">1</span><span class="rp">20.0%</span><div class="rd"><span class="u">Universidad Nestor Cáceres V.</span><span class="ra">→</span><span class="e">Vlorish</span><span class="ra">→</span><span class="ch">Movil</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">20.0%</span><div class="rd"><span class="u">Universidad Católica Santa María</span><span class="ra">→</span><span class="e">Fáb. Chocolates La Ibérica</span><span class="ra">→</span><span class="ch">Integración</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">20.0%</span><div class="rd"><span class="u">Univ. Nac. San Agustín</span><span class="ra">→</span><span class="e">Berryllium</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">20.0%</span><div class="rd"><span class="u">Instituto Cibertec</span><span class="ra">→</span><span class="e">NTT Data</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">20.0%</span><div class="rd"><span class="u">Universidad La Salle</span><span class="ra">→</span><span class="e">NTT Data</span><span class="ra">→</span><span class="ch">Movil</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">3</span><span class="rp"></span><div class="rd"><span class="u">NTT Data</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Vlorish</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Edipro SAC</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Rodmensoft</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Berryllium</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Fáb. Chocolates La Ibérica</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Diversa (NTT Data domina como empresa fuente)</div></div></div><div id="d-junin" class="dsect"><div class="dc"><div class="dt">🏔️ Junín</div><div class="ds">3 técnicos (4.7%) · <span class="badge bp">Emergente</span></div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--ac);font-weight:600;margin-bottom:7px;">Chapters · Backend (2) · Móvil (1)</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:7px;margin-top:10px;">📍 Top Rutas (Uni → Empresa → Chapter)</div><div class="rr"><span class="rf">1</span><span class="rp">33.3%</span><div class="rd"><span class="u">Universidad Continental</span><span class="ra">→</span><span class="e">Bsns Identidad México</span><span class="ra">→</span><span class="ch">Movil</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">33.3%</span><div class="rd"><span class="u">Universidad Continental</span><span class="ra">→</span><span class="e">Indra</span><span class="ra">→</span><span class="ch">Backend</span></div></div><div class="rr"><span class="rf">1</span><span class="rp">33.3%</span><div class="rd"><span class="u">Univ. Nacional del Centro del Perú</span><span class="ra">→</span><span class="e">Transtop S.A.</span><span class="ra">→</span><span class="ch">Backend</span></div></div></div><div class="dc"><div class="dt">🏢 Top Empresas (Col. N · sin docencia)</div><div class="ds">Todos los registros · Excluye roles docentes</div><div class="rr"><span class="rf">4</span><span class="rp"></span><div class="rd"><span class="u">Indra</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Bsns Identidad México</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Inversiones Softoy</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Universidad Continental</span></div></div><div class="rr"><span class="rf">1</span><span class="rp"></span><div class="rd"><span class="u">Transtop S.A.</span></div></div><div style="margin-top:12px;padding:10px;background:rgba(100,41,205,.06);border-radius:8px;font-size:11px;color:var(--mu);"><strong style="color:var(--tx);">🎓 Universidad(es):</strong> Universidad Continental (2 de 3)</div></div></div>
+</div>
+
+<!-- ANALISIS -->
+<div id="analisis" class="pg">
+  <div class="st">Análisis por Región · Perú</div>
+  <div class="sb">Cobertura regional técnica · Especialización por chapter · Mercados subexplotados</div>
+  <div class="card" style="padding:0;overflow:hidden;margin-bottom:20px;">
+    <table><thead><tr><th>Región</th><th>Técnicos</th><th>%</th><th>Chapters Dominantes</th><th>Top Universidad</th><th>Top Empresa (Col. N)</th><th>Clasificación</th></tr></thead><tbody>
+      <tr><td><strong>Lima</strong></td><td>27</td><td>42.2%</td><td>Backend (15) · Integración (6) · Data (2)</td><td>UNI (3) · SISE (2) · San Marcos (2)</td><td>Everis (4) · Indra (3) · NTT Data (3)</td><td><span class="badge bg">Estratégico</span></td></tr>
+      <tr><td><strong>La Libertad</strong></td><td>8</td><td>12.5%</td><td>Backend (5) · Móvil (2) · Frontend (1)</td><td>UPAO (3) · UNT (3)</td><td>Everis (3) · UPAO (2)</td><td><span class="badge bg">Estratégico</span></td></tr>
+      <tr><td><strong>Lambayeque</strong></td><td>8</td><td>12.5%</td><td>Backend (7) · Móvil (1)</td><td>Pedro Ruiz Gallo (4)</td><td>NTT Data (2) · Global Hitss (2)</td><td><span class="badge bo">Prioritario</span></td></tr>
+      <tr><td><strong>Sin región</strong></td><td>7</td><td>10.9%</td><td>Backend (3) · Arquitectura (2)</td><td>Diversa</td><td>NTT Data (3) · Everis (2)</td><td><span class="badge bb">Sin datos</span></td></tr>
+      <tr><td><strong>Arequipa</strong></td><td>5</td><td>7.8%</td><td>Móvil (2) · Backend (2) · Integración (1)</td><td>Diversa (NTT domina empresas)</td><td>NTT Data (3)</td><td><span class="badge bp">Emergente</span></td></tr>
+      <tr><td><strong>Junín</strong></td><td>3</td><td>4.7%</td><td>Backend (2) · Móvil (1)</td><td>Universidad Continental (2)</td><td>Indra (4) · Bsns Identidad (1)</td><td><span class="badge bp">Emergente</span></td></tr>
+      <tr><td><strong>Otras regiones</strong></td><td>6</td><td>9.4%</td><td>Backend · Integración · Frontend</td><td>Diversa</td><td>Regionales</td><td><span class="badge bb">Exploratorio</span></td></tr>
+    </tbody></table>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="cl">Especialización técnica por región</div><div class="ss"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">Lima</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Backend · Integración · Data/IA</div><div style="font-size:10px;color:var(--mu);">27 técnicos · 42.2%</div></div><div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">La Libertad</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Backend · Móvil · Frontend</div><div style="font-size:10px;color:var(--mu);">8 técnicos · 12.5%</div></div><div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">Lambayeque</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Backend (87%)  · Móvil</div><div style="font-size:10px;color:var(--mu);">8 técnicos · 12.5%</div></div><div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">Arequipa</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Móvil · Backend · Integración</div><div style="font-size:10px;color:var(--mu);">5 técnicos · 7.8%</div></div><div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">Junín</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Backend · Móvil</div><div style="font-size:10px;color:var(--mu);">3 técnicos · 4.7%</div></div><div style="padding:12px;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.15);border-radius:10px;"><div style="font-size:12px;font-weight:700;margin-bottom:5px;">Otras</div><div style="font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;">Chapters técnicos</div><div style="font-size:11px;color:var(--a2);margin:3px 0 5px;">Backend</div><div style="font-size:10px;color:var(--mu);">6 técnicos · 9.4%</div></div>
+        </div>
+    </div>
+    <div class="card ca3">
+      <div class="cl">⚡ Mercados Técnicos Subexplotados</div><div class="ss"></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>Arequipa: hub técnico sin activar</strong><span>NTT Data ya tiene 3 registros en Arequipa. La Universidad San Agustín y la Univ. Católica Santa María son fuentes técnicas sin alianza activa.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>PUCP y UPC Lima: 0 técnicos en Pragma</strong><span>Las mejores universidades privadas de Lima no tienen representación técnica. Sourcing activo en LinkedIn para Ing. Informática PUCP y UPC.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>Cloud Ops y DevSecOps: 0 en todo Perú</strong><span>Ni un solo técnico en Cloud Ops o DevSecOps. NTT Data, Indra y Canvia tienen estos perfiles en Lima. Sourcing urgente.</span></div>
+      <div class="ins" style="border-left-color:var(--a3);background:rgba(51,0,114,.06);"><strong>Junín: Continental domina pero está subrepresentado</strong><span>3 técnicos con 2 de Universidad Continental. Huancayo tiene un ecosistema tech regional sin explorar. Primera visita recomendada.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- FUENTES POR ROL -->
+<div id="roles" class="pg">
+  <div class="st">Fuentes de Talento por Rol Técnico · Perú</div>
+  <div class="sb">¿De dónde reclutamos cada perfil técnico? · Top regiones y universidades por chapter · Sin docencia</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div style="background:var(--sf);border:1px solid rgba(100,41,205,.2);border-top:3px solid #6429CD;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">⚙️</span><div><div style="font-size:13px;font-weight:700;">Backend</div><div style="font-size:10px;color:#6429CD;font-weight:600;">38 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Java</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Python</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Node.js</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">SQL</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(100,41,205,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">APIs REST</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">15</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lambayeque</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:47%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">7</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">La Libertad</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:33%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">5</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sin región</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:20%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">3</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Univ. Nac. Pedro Ruiz Gallo</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">4</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Univ. Nacional de Trujillo</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:75%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">3</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Instituto Cibertec</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:75%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">3</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Univ. Mayor de San Marcos</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#6429CD;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">2</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(51,0,114,.2);border-top:3px solid #330072;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">🔗</span><div><div style="font-size:13px;font-weight:700;">Integración</div><div style="font-size:10px;color:#330072;font-weight:600;">8 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(51,0,114,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">REST APIs</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(51,0,114,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">SOA</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(51,0,114,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Integración sistemas</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">6</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Arequipa</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:17%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Ucayali</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:17%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Nacional de Ingeniería</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Católica Santa María</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad César Vallejo</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">ISIL</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(124,58,237,.2);border-top:3px solid #7C3AED;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">📱</span><div><div style="font-size:13px;font-weight:700;">Móvil</div><div style="font-size:10px;color:#7C3AED;font-weight:600;">8 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(124,58,237,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Flutter</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(124,58,237,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Kotlin</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(124,58,237,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Swift</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(124,58,237,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">React Native</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Arequipa</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">La Libertad</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Junín</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lambayeque</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Univ. Nac. Pedro Ruiz Gallo</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Univ. Privada Antenor Orrego</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Nestor Cáceres V.</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Continental</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(139,79,232,.2);border-top:3px solid #8B4FE8;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">🖥️</span><div><div style="font-size:13px;font-weight:700;">Frontend</div><div style="font-size:10px;color:#8B4FE8;font-weight:600;">5 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(139,79,232,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">React</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(139,79,232,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Angular</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(139,79,232,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">JavaScript</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(139,79,232,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">CSS</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sin región</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Ica</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">La Libertad</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad César Vallejo</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Instituto SISE</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Laboratoria</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Politéc. Costa Atlántica</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(91,33,182,.2);border-top:3px solid #5B21B6;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">🤖</span><div><div style="font-size:13px;font-weight:700;">Ciencia de Datos</div><div style="font-size:10px;color:#5B21B6;font-weight:600;">2 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(91,33,182,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Python</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(91,33,182,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Machine Learning</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(91,33,182,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Data Analysis</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#5B21B6;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#5B21B6;width:16px;text-align:right;">2</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Ricardo Palma</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#5B21B6;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#5B21B6;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">IESTPN</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#5B21B6;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#5B21B6;width:16px;text-align:right;">1</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(109,40,217,.2);border-top:3px solid #6D28D9;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">🏗️</span><div><div style="font-size:13px;font-weight:700;">Arquitectura</div><div style="font-size:10px;color:#6D28D9;font-weight:600;">2 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(109,40,217,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Cloud</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(109,40,217,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">DDD</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(109,40,217,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Microservicios</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sin región</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6D28D9;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6D28D9;width:16px;text-align:right;">2</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad de Oriente (Cuba)</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6D28D9;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6D28D9;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Ricardo Palma</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6D28D9;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#6D28D9;width:16px;text-align:right;">1</span></div></div></div></div><div style="background:var(--sf);border:1px solid rgba(166,127,255,.2);border-top:3px solid #A67FFF;border-radius:12px;padding:16px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;"><span style="font-size:18px;">🧪</span><div><div style="font-size:13px;font-weight:700;">QA / Testing</div><div style="font-size:10px;color:#A67FFF;font-weight:600;">1 colaboradores</div></div></div><div style="margin-bottom:10px;"><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(166,127,255,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">QA Manual</span><span style="display:inline-block;background:rgba(100,41,205,.06);border:1px solid rgba(166,127,255,.2);padding:2px 7px;border-radius:4px;font-size:10px;color:var(--mu);margin:2px;">Testing</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">📍 Top Regiones</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div></div><div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--mu);margin-bottom:5px;font-weight:600;">🎓 Top Universidades</div><div style="display:flex;align-items:center;gap:7px;padding:4px 0;border-bottom:1px solid rgba(100,41,205,.05);"><span style="font-size:10px;color:var(--mu);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Universidad Nacional Tec. Lima</span><div style="width:46px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;transition:width 1s;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div></div></div></div>
+  </div>
+</div>
+
+<!-- PLAN -->
+<div id="plan" class="pg">
+  <div class="st">Plan de Acción · Perú Técnico</div>
+  <div class="sb">Quick Wins · Mediano plazo · Largo plazo · Basado en 64 técnicos reales</div>
+  <div class="g2">
+    <div><div class="tl">
+      <div class="ti"><div class="td tg"></div><div class="tl-l">Quick Win · 30 días</div><div class="tl-t">Sourcing NTT Data + Everis + Indra Lima</div><div class="tl-d">3 empresas = 38% del talento técnico con empresa previa. LinkedIn Recruiter: filtrar empresa + cargo técnico + Advanced. Altísima tasa de fit demostrada.</div></div>
+      <div class="ti"><div class="td tg"></div><div class="tl-l">Quick Win · 30 días</div><div class="tl-t">Comunidades técnicas GDG Lima + AWS Peru</div><div class="tl-d">Patrocinar meetups mensuales técnicos. Tech Evangelist para Perú. Employer branding en comunidades donde ya hay talento técnico afín.</div></div>
+      <div class="ti"><div class="td tp"></div><div class="tl-l">Mediano Plazo · 90 días</div><div class="tl-t">Alianzas Pedro Ruiz Gallo + UNT (Trujillo/Chiclayo)</div><div class="tl-d">5+4 = 9 técnicos de las dos fuentes universitarias más grandes. Charlas técnicas Backend y Móvil. Programa de prácticas virtual para técnicos peruanos.</div></div>
+      <div class="ti"><div class="td tp"></div><div class="tl-l">Mediano Plazo · 90 días</div><div class="tl-t">Activar Cloud Ops y DevSecOps en Perú</div><div class="tl-d">0 técnicos en estos chapters. Sourcing en NTT Data, Canvia y Indra para perfiles Cloud y Security. UNI es la fuente universitaria más adecuada.</div></div>
+      <div class="ti"><div class="td to"></div><div class="tl-l">Largo Plazo · 12 meses</div><div class="tl-t">Hub Técnico Perú: Lima + Trujillo + Arequipa</div><div class="tl-d">Meta: +50 técnicos en 12 meses. Tres hubs: Lima (NTT+UNI), Trujillo/Chiclayo (UPAO+UNPRG), Arequipa (U.San Agustín+NTT). Perú como tercer hub técnico de Pragma.</div></div>
+      <div class="ti"><div class="td to"></div><div class="tl-l">Largo Plazo · 12 meses</div><div class="tl-t">Peru Dev Academy · Prácticas Técnicas</div><div class="tl-d">Alianza con UNI, Pedro Ruiz Gallo, UPAO y Cibertec. Cohortes semestrales técnicas. Meta: 15 practicantes/cohorte, 60% conversión. Reducir dependencia de NTT Data del 34% actual.</div></div>
+    </div></div>
+    <div>
+      <div class="card ca2" style="margin-bottom:16px;">
+        <div class="cl">Riesgos Técnicos · Perú</div><div class="ss"></div>
+        <div style="display:flex;flex-direction:column;gap:7px;font-size:12px;">
+          <div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>1. Backend exclusivo (59.4%)</strong> Alta concentración técnica en un solo chapter.</div><div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>2. Dependencia NTT Data (34%)</strong> Una empresa domina el 34% de la exp. técnica. Riesgo de concentración.</div><div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>3. 0 Cloud Ops y 0 DevSecOps</strong> Chapters técnicos críticos sin ningún técnico en Perú.</div><div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>4. Pipeline Junior frágil</strong> Solo 3 Junior/Trainee técnicos de 64 totales.</div><div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>5. 7 sin región registrada (10.9%)</strong> Datos geográficos incompletos limitan análisis regional.</div><div style="padding:8px;background:rgba(139,79,232,.05);border-radius:6px;"><strong>6. Pragma invisible en comunidades tech</strong> Sin presencia en GDG Lima, AWS Peru ni eventos técnicos peruanos.</div>
+        </div>
+      </div>
+      <div class="card cg">
+        <div class="cl">Predicción técnica · 12 meses · Perú</div><div class="ss"></div>
+        <div style="display:flex;flex-direction:column;gap:7px;font-size:12px;">
+          <div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Técnicos objetivo total</span><span style="color:var(--gd);font-weight:700">+50 → 114 técnicos</span></div><div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Activar Cloud Ops / DevSecOps</span><span style="color:var(--gd);font-weight:700">+5 técnicos mínimo</span></div><div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Diversificar chapters</span><span style="color:var(--gd);font-weight:700">Frontend +5, Data +3</span></div><div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Nuevas alianzas universitarias</span><span style="color:var(--gd);font-weight:700">Pedro Ruiz Gallo + UNI + UPAO</span></div><div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Hubs activos</span><span style="color:var(--gd);font-weight:700">Lima + Trujillo + Arequipa</span></div><div style="display:flex;justify-content:space-between;padding:8px;background:rgba(201,168,255,.08);border-radius:6px;"><span>Reducir dependencia NTT</span><span style="color:var(--gd);font-weight:700">de 34% → <20%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ÚLTIMA EXPERIENCIA LABORAL -->
+<div id="ultexp" class="pg">
+
+<div class="st">Última Experiencia Laboral · Tendencias y Correlaciones · Perú</div>
+<div class="sb">Análisis de patrones de origen laboral · 64 técnicos · Sin docencia · Chapters técnicos</div>
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;">
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-top:3px solid #6429CD;border-radius:12px;padding:16px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:6px;">Técnicos analizados</div>
+    <div style="font-size:36px;font-weight:800;color:#6429CD;line-height:1;">64</div>
+    <div style="font-size:10px;color:#6B5F8A;margin-top:4px;">colaboradores técnicos</div>
+  </div>
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-top:3px solid #8B4FE8;border-radius:12px;padding:16px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:6px;">Con exp. laboral previa</div>
+    <div style="font-size:36px;font-weight:800;color:#8B4FE8;line-height:1;">59</div>
+    <div style="font-size:10px;color:#6B5F8A;margin-top:4px;">92% del total técnico</div>
+  </div>
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-top:3px solid #330072;border-radius:12px;padding:16px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:6px;">Sin exp. previa</div>
+    <div style="font-size:36px;font-weight:800;color:#330072;line-height:1;">5</div>
+    <div style="font-size:10px;color:#6B5F8A;margin-top:4px;">8% llegó directo de universidad</div>
+  </div>
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-top:3px solid #A67FFF;border-radius:12px;padding:16px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:6px;">Empresas origen únicas</div>
+    <div style="font-size:36px;font-weight:800;color:#A67FFF;line-height:1;">15</div>
+    <div style="font-size:10px;color:#6B5F8A;margin-top:4px;">en top 15 más frecuentes</div>
+  </div>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:22px;">
+  <!-- TOP EMPRESAS -->
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-radius:12px;padding:18px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:12px;font-weight:600;">🏢 Top 15 Empresas de Origen · Última Exp. Laboral</div>
+    <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">1</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:100%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">8</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">2</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Everis/NTT Advisory</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:37%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">3</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">3</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Indra</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:25%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">2</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">4</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Global Hitss</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:25%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">2</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">5</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Synopsis S.A.</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:25%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">2</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">6</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">TCS</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">7</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Novatronic</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">8</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">F1 Services</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">9</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Corporacion Eyncor Sac</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">10</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Hermes Transportes Blindados</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">11</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Htec</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">12</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Edipro Sac</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">13</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Empresa De Crédito Alternativa</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">14</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bsns Identidad Mexico</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(100,41,205,.05);">
+          <span style="font-size:10px;color:#6B5F8A;width:16px;text-align:right;flex-shrink:0;">15</span>
+          <span style="font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Fabrica De Chocolates La Iberica</span>
+          <div style="width:80px;height:4px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;">
+            <div style="width:12%;height:100%;background:#6429CD;border-radius:2px;"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:#6429CD;width:20px;text-align:right;">1</span>
+        </div>
+  </div>
+  <!-- DIVERSIDAD EMPRESA → CHAPTERS -->
+  <div style="background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-radius:12px;padding:18px;">
+    <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:4px;font-weight:600;">🔀 Empresa → Chapters · Diversidad de Sourcing</div>
+    <div style="font-size:10px;color:#6B5F8A;margin-bottom:12px;">¿Cuántos chapters distintos alimenta cada empresa?</div>
+    <div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">NTT Data</span>
+            <span style="font-size:10px;color:#6B5F8A;">8 técnicos · 2 chapters</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (6)</span><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#7C3AED18;color:#7C3AED;border:1px solid #7C3AED33;margin:1px;">Móvil (2)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Everis/NTT Advisory</span>
+            <span style="font-size:10px;color:#6B5F8A;">3 técnicos · 2 chapters</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (2)</span><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#8B4FE818;color:#8B4FE8;border:1px solid #8B4FE833;margin:1px;">Frontend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Indra</span>
+            <span style="font-size:10px;color:#6B5F8A;">2 técnicos · 2 chapters</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#5B21B618;color:#5B21B6;border:1px solid #5B21B633;margin:1px;">Ciencia De Datos (1)</span><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Global Hitss</span>
+            <span style="font-size:10px;color:#6B5F8A;">2 técnicos · 2 chapters</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#33007218;color:#330072;border:1px solid #33007233;margin:1px;">Integración (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Synopsis S.A.</span>
+            <span style="font-size:10px;color:#6B5F8A;">2 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#33007218;color:#330072;border:1px solid #33007233;margin:1px;">Integración (2)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">TCS</span>
+            <span style="font-size:10px;color:#6B5F8A;">1 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Novatronic</span>
+            <span style="font-size:10px;color:#6B5F8A;">1 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">F1 Services</span>
+            <span style="font-size:10px;color:#6B5F8A;">1 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Corporacion Eyncor Sac</span>
+            <span style="font-size:10px;color:#6B5F8A;">1 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div><div style="padding:10px 0;border-bottom:1px solid rgba(100,41,205,.06);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:600;">Hermes Transportes Blindados</span>
+            <span style="font-size:10px;color:#6B5F8A;">1 técnicos · 1 chapter</span>
+          </div>
+          <div><span style="display:inline-block;padding:1px 7px;border-radius:4px;font-size:9px;font-weight:600;background:#6429CD18;color:#6429CD;border:1px solid #6429CD33;margin:1px;">Backend (1)</span></div>
+        </div>
+  </div>
+</div>
+
+<!-- CHAPTER → EMPRESAS -->
+<div style="margin-bottom:22px;">
+  <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:12px;font-weight:600;">🔗 Correlación: Chapter en Pragma ← Empresa de Origen</div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
+    <div style="background:#F5F4F9;border:1px solid #6D28D930;border-top:3px solid #6D28D9;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Arquitectura</span>
+            <span style="font-size:10px;color:#6D28D9;font-weight:600;">2 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">T-Id Solutions</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6D28D9;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6D28D9;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Ministerio De Comercio Exterior Y T</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6D28D9;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6D28D9;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #6429CD30;border-top:3px solid #6429CD;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Backend</span>
+            <span style="font-size:10px;color:#6429CD;font-weight:600;">35 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">6</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Everis/NTT Advisory</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:33%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">TCS</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:16%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Novatronic</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:16%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">F1 Services</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:16%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #5B21B630;border-top:3px solid #5B21B6;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Ciencia De Datos</span>
+            <span style="font-size:10px;color:#5B21B6;font-weight:600;">2 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Indra</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#5B21B6;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#5B21B6;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Cencosud</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#5B21B6;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#5B21B6;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #8B4FE830;border-top:3px solid #8B4FE8;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Frontend</span>
+            <span style="font-size:10px;color:#8B4FE8;font-weight:600;">5 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Dmt Techonology</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Inversiones Rubin'S S.A.C. (Footloo</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Ludycom Sac</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">App Solutions International Inc</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Everis/NTT Advisory</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #33007230;border-top:3px solid #330072;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Integración</span>
+            <span style="font-size:10px;color:#330072;font-weight:600;">7 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Synopsis S.A.</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Fabrica De Chocolates La Iberica</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">E. Partners Auditores & Consultores</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bancolombia</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Global Hitss</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #7C3AED30;border-top:3px solid #7C3AED;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Móvil</span>
+            <span style="font-size:10px;color:#7C3AED;font-weight:600;">7 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#7C3AED;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Edipro Sac</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bsns Identidad Mexico</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Corporación Eyncor S.A.C</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Cryptomarket</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:50%;height:100%;background:#7C3AED;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#7C3AED;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #A67FFF30;border-top:3px solid #A67FFF;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">QA/Testing</span>
+            <span style="font-size:10px;color:#A67FFF;font-weight:600;">1 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Nttdata</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;flex-shrink:0;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div>
+        </div>
+  </div>
+</div>
+
+<!-- SENIORITY → EMPRESAS -->
+<div style="margin-bottom:22px;">
+  <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:12px;font-weight:600;">📈 Correlación: Seniority en Pragma ← Empresa de Origen</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
+    <div style="background:#F5F4F9;border:1px solid #A67FFF30;border-top:3px solid #A67FFF;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Junior / Trainee</span>
+            <span style="font-size:10px;color:#A67FFF;font-weight:600;">5 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Agricola Alto Negro</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Inetum - Cgr</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Runit - Cliente Pagos Digitales Per</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Imperium Potencial Humano</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#A67FFF;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#A67FFF;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #8B4FE830;border-top:3px solid #8B4FE8;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Advanced</span>
+            <span style="font-size:10px;color:#8B4FE8;font-weight:600;">31 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">5</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Indra</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:40%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Global Hitss</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:40%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Synopsis S.A.</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:40%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">TCS</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:20%;height:100%;background:#8B4FE8;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#8B4FE8;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #6429CD30;border-top:3px solid #6429CD;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Senior</span>
+            <span style="font-size:10px;color:#6429CD;font-weight:600;">20 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Everis/NTT Advisory</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">NTT Data</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">2</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">F1 Services</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:50%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Corporacion Eyncor Sac</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:50%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Hermes Transportes Blindados</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:50%;height:100%;background:#6429CD;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#6429CD;width:16px;text-align:right;">1</span></div>
+        </div><div style="background:#F5F4F9;border:1px solid #33007230;border-top:3px solid #330072;border-radius:12px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;font-weight:700;">Master</span>
+            <span style="font-size:10px;color:#330072;font-weight:600;">3 técnicos</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Htec E.I.R.L</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Mercania</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div><div style="display:flex;align-items:center;gap:6px;padding:3px 0;"><span style="font-size:10px;color:#6B5F8A;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Cencosud</span><div style="width:50px;height:3px;background:rgba(100,41,205,.1);border-radius:2px;"><div style="width:100%;height:100%;background:#330072;border-radius:2px;"></div></div><span style="font-size:10px;font-weight:700;color:#330072;width:16px;text-align:right;">1</span></div>
+        </div>
+  </div>
+</div>
+
+<!-- INSIGHTS -->
+<div style="margin-bottom:8px;">
+  <div style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6B5F8A;margin-bottom:12px;font-weight:600;">💡 Insights Clave</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+      <div style="background:rgba(100,41,205,.05);border:1px solid #6429CD30;border-left:3px solid #6429CD;border-radius:8px;padding:12px 14px;"><div style="display:flex;gap:7px;align-items:flex-start;"><span style="font-size:16px;line-height:1;">🏆</span><div><div style="font-size:12px;font-weight:700;color:#1D1D1B;margin-bottom:3px;">NTT Data lidera el sourcing técnico</div><div style="font-size:11px;color:#6B5F8A;line-height:1.6;"><b>NTT Data</b> es la empresa de donde más técnicos provienen en su última experiencia: <b>8 personas</b>. Confirma alta afinidad cultural con Pragma.</div></div></div></div>
+      <div style="background:rgba(139,79,232,.05);border:1px solid #8B4FE830;border-left:3px solid #8B4FE8;border-radius:8px;padding:12px 14px;"><div style="display:flex;gap:7px;align-items:flex-start;"><span style="font-size:16px;line-height:1;">📊</span><div><div style="font-size:12px;font-weight:700;color:#1D1D1B;margin-bottom:3px;">Top 3 empresas concentran el 22% del talento con experiencia</div><div style="font-size:11px;color:#6B5F8A;line-height:1.6;">NTT Data, Everis/NTT Advisory, Indra juntas aportan <b>13 de 59 técnicos</b> con experiencia previa. Alta dependencia de pocas fuentes.</div></div></div></div>
+      <div style="background:rgba(51,0,114,.05);border:1px solid #33007230;border-left:3px solid #330072;border-radius:8px;padding:12px 14px;"><div style="display:flex;gap:7px;align-items:flex-start;"><span style="font-size:16px;line-height:1;">🔗</span><div><div style="font-size:12px;font-weight:700;color:#1D1D1B;margin-bottom:3px;">Correlación más fuerte: Backend ← NTT Data</div><div style="font-size:11px;color:#6B5F8A;line-height:1.6;">El capítulo <b>Backend</b> muestra la correlación más concentrada con <b>NTT Data</b> (6 técnicos). Pipeline de sourcing más predecible.</div></div></div></div>
+      <div style="background:rgba(166,127,255,.06);border:1px solid #A67FFF30;border-left:3px solid #A67FFF;border-radius:8px;padding:12px 14px;"><div style="display:flex;gap:7px;align-items:flex-start;"><span style="font-size:16px;line-height:1;">🎓</span><div><div style="font-size:12px;font-weight:700;color:#1D1D1B;margin-bottom:3px;">5 técnicos (8%) sin experiencia previa</div><div style="font-size:11px;color:#6B5F8A;line-height:1.6;">Llegaron directamente desde la universidad o sin empresa anterior registrada. Señal del impacto real de los programas de prácticas y formación.</div></div></div></div>
+    </div>
+</div>
+</div>
+
+<script>
+function showTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.pg').forEach(c=>c.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+function showDept(id,btn){
+  document.querySelectorAll('.df-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.dsect').forEach(s=>s.classList.remove('active'));
+  document.getElementById('d-'+id).classList.add('active');
+  btn.classList.add('active');
+}
+setTimeout(()=>{
+  document.querySelectorAll('.rbf').forEach(b=>{
+    const w=b.style.width;b.style.width='0';
+    setTimeout(()=>{b.style.width=w;},60);
+  });
+},120);
+</script>
+
+<div id="mapa" class="pg">
+<div class="st">Mapa de Calor &middot; Talento Técnico por Departamento &middot; Perú</div>
+<div class="sb">Filtro por chapter &middot; Modo predominancia &middot; 80 técnicos &middot; Sin posgrados &middot; Sin docencia</div>
+<style>
+.pmc-top{margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid rgba(100,41,205,.1)}
+.pmc-mode{display:flex;gap:6px;margin-bottom:10px}
+.pmc-mbtn{font-size:12px;padding:5px 14px;border-radius:8px;border:1px solid rgba(100,41,205,.3);background:transparent;color:#6B5F8A;cursor:pointer;font-family:'Poppins',sans-serif}
+.pmc-mbtn.active{background:#6429CD;color:#fff;border-color:#6429CD}
+.pmc-pills{display:flex;flex-wrap:wrap;gap:5px}
+.pmc-pill{font-size:11px;padding:4px 11px;border-radius:20px;border:1.5px solid;cursor:pointer;font-family:'Poppins',sans-serif;font-weight:500;background:transparent}
+.pmc-vrow{display:flex;gap:6px;align-items:center;margin-top:8px}
+.pmc-vrow label{font-size:11px;color:#6B5F8A}
+.pmc-vbtn{font-size:11px;padding:3px 10px;border-radius:6px;border:1px solid rgba(100,41,205,.3);background:transparent;color:#6B5F8A;cursor:pointer;font-family:'Poppins',sans-serif}
+.pmc-vbtn.active{background:#6429CD;color:#fff;border-color:#6429CD}
+.pmc-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.pmc-kpi{background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-top:3px solid #6429CD;border-radius:10px;padding:12px 14px}
+.pmc-kpi-lbl{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#6B5F8A}
+.pmc-kpi-val{font-size:24px;font-weight:700;margin-top:4px;color:#1D1D1B}
+.pmc-layout{display:grid;grid-template-columns:1fr 220px;gap:14px;align-items:start}
+#pmc-wrap{position:relative;width:100%}
+path.pmc-dept{cursor:pointer;transition:fill .25s}
+path.pmc-dept:hover{opacity:.75}
+#pmc-tip{position:absolute;background:#fff;border:1px solid rgba(100,41,205,.2);border-radius:8px;padding:8px 12px;font-size:12px;font-family:'Poppins',sans-serif;pointer-events:none;display:none;z-index:9;line-height:1.6;color:#1D1D1B;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.pmc-side{background:#F5F4F9;border:1px solid rgba(100,41,205,.12);border-radius:12px;padding:14px}
+.pmc-side h3{font-size:13px;font-weight:700;margin-bottom:8px;color:#1D1D1B}
+.pmc-br{display:flex;align-items:center;gap:5px;margin-bottom:5px}
+.pmc-brl{font-size:11px;color:#6B5F8A;width:82px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pmc-brt{flex:1;height:5px;background:rgba(100,41,205,.1);border-radius:3px;overflow:hidden}
+.pmc-brf{height:100%;border-radius:3px}
+.pmc-brn{font-size:11px;color:#6B5F8A;min-width:22px;text-align:right}
+.pmc-s2{background:#fff;border:1px solid rgba(100,41,205,.1);border-radius:8px;padding:8px 10px;margin-bottom:6px}
+.pmc-leg{margin-top:8px}
+.pmc-legt{font-size:9px;color:#6B5F8A;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;font-weight:600}
+.pmc-legi{display:flex;align-items:center;gap:6px;font-size:11px;color:#1D1D1B;margin-bottom:3px}
+.pmc-sw{width:12px;height:12px;border-radius:2px;flex-shrink:0}
+.pmc-hbar{display:flex;height:10px;border-radius:3px;overflow:hidden;margin:4px 0 2px}
+.pmc-hlab{display:flex;justify-content:space-between;font-size:10px;color:#6B5F8A}
+.pmc-ins{margin-top:8px;padding:8px;background:#fff;border-radius:8px;font-size:11px;color:#6B5F8A;line-height:1.5;border:1px solid rgba(100,41,205,.08)}
+</style>
+
+<div class="pmc-top">
+  <div class="pmc-mode">
+    <button class="pmc-mbtn active" id="pe-btn-ch" onclick="peSetMode('ch')">Por chapter</button>
+    <button class="pmc-mbtn" id="pe-btn-dom" onclick="peSetMode('dom')">Predominancia</button>
+  </div>
+  <div class="pmc-pills" id="pe-pills"></div>
+  <div class="pmc-vrow" id="pe-vrow">
+    <label>Ver:</label>
+    <button class="pmc-vbtn active" id="pe-vabs" onclick="peSetView('abs')">N&ordm; técnicos</button>
+    <button class="pmc-vbtn" id="pe-vpct" onclick="peSetView('pct')">% del dpto.</button>
+  </div>
+</div>
+
+<div class="pmc-kpis" id="pe-kpis"></div>
+
+<div class="pmc-layout">
+  <div>
+    <div id="pmc-wrap">
+      <div id="pmc-tip"></div>
+      <svg id="pe-svg" viewBox="0 0 380 560" style="width:100%;display:block"></svg>
+    </div>
+    <div id="pe-leg" style="margin-top:6px"></div>
+  </div>
+  <div class="pmc-side" id="pe-side">
+    <p style="font-size:12px;color:#6B5F8A">Haz clic en un departamento para ver el detalle.</p>
+  </div>
+</div>
+
+<script>
+/* mapa pe */
+var DATA={
+  "Lima":        {t:33,senior:11,backend:17,frontend:2,integracion:9,qa:1,movil:1,cloud:0,arq:0,data:0,devs:0},
+  "La Libertad": {t:10,senior:6, backend:6, frontend:1,integracion:0,qa:0,movil:3,cloud:0,arq:0,data:0,devs:0},
+  "Lambayeque":  {t:9, senior:4, backend:8, frontend:0,integracion:0,qa:0,movil:1,cloud:0,arq:0,data:0,devs:0},
+  "Arequipa":    {t:5, senior:1, backend:2, frontend:0,integracion:1,qa:0,movil:2,cloud:0,arq:0,data:0,devs:0},
+  "Ica":         {t:3, senior:3, backend:0, frontend:3,integracion:0,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+  "Junin":       {t:3, senior:1, backend:2, frontend:0,integracion:0,qa:0,movil:1,cloud:0,arq:0,data:0,devs:0},
+  "Ayacucho":    {t:1, senior:1, backend:1, frontend:0,integracion:0,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+  "Cusco":       {t:1, senior:0, backend:1, frontend:0,integracion:0,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+  "Huanuco":     {t:1, senior:1, backend:1, frontend:0,integracion:0,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+  "Piura":       {t:1, senior:1, backend:1, frontend:0,integracion:0,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+  "Ucayali":     {t:1, senior:0, backend:0, frontend:0,integracion:1,qa:0,movil:0,cloud:0,arq:0,data:0,devs:0},
+};
+var CHS=[
+  {k:'backend',    lb:'Backend',          hi:'#330072',lo:'#E8D5FF'},
+  {k:'frontend',   lb:'Frontend',         hi:'#3B0764',lo:'#EDE9FE'},
+  {k:'integracion',lb:'Integracion',      hi:'#1E3A8A',lo:'#DBEAFE'},
+  {k:'movil',      lb:'Movil',            hi:'#0C4A6E',lo:'#E0F2FE'},
+  {k:'arq',        lb:'Arquitectura',     hi:'#7F1D1D',lo:'#FEE2E2'},
+  {k:'qa',         lb:'QA',               hi:'#78350F',lo:'#FEF3C7'},
+];
+var CHM={};CHS.forEach(function(c){CHM[c.k]=c;});
+var MID={backend:'#6429CD',frontend:'#7C3AED',integracion:'#2563EB',qa:'#D97706',movil:'#0284C7',cloud:'#059669',arq:'#DC2626',data:'#9333EA',devs:'#0D9488'};
+var EMPTY='#ddd9e6';
+var mode='ch',view='abs',selCh=CHS[0],selDept=null,peGeo=null,peIDS={};
+
+// Peru dept names as they appear in datamaps per.topo.json
+var PE_MAP={
+  "Amazonas":"Amazonas","Ancash":"Ancash","Apurimac":"Apurimac","Arequipa":"Arequipa",
+  "Ayacucho":"Ayacucho","Cajamarca":"Cajamarca","Callao":"Callao","Cusco":"Cusco",
+  "Huancavelica":"Huancavelica","Huanuco":"Huanuco","Ica":"Ica","Junin":"Junin",
+  "La Libertad":"La Libertad","Lambayeque":"Lambayeque","Lima":"Lima",
+  "Loreto":"Loreto","Madre de Dios":"Madre de Dios","Moquegua":"Moquegua",
+  "Pasco":"Pasco","Piura":"Piura","Puno":"Puno","San Martin":"San Martin",
+  "Tacna":"Tacna","Tumbes":"Tumbes","Ucayali":"Ucayali"
+};
+
+function peBuildIDS(features){
+  features.forEach(function(f){
+    var props=f.properties||{};
+    var pname=props.name||props.NAME||props.NOMBRE||'';
+    if(pname&&DATA[pname]){peIDS[f.id]=pname;return;}
+    if(pname&&PE_MAP[pname]&&DATA[PE_MAP[pname]]){peIDS[f.id]=PE_MAP[pname];return;}
+    if(pname){peIDS[f.id]=pname;}
+  });
+}
+
+function peDom(name){
+  var d=DATA[name];if(!d)return null;
+  var b=null,bv=0;
+  CHS.forEach(function(c){if(d[c.k]>bv){bv=d[c.k];b=c;}});
+  return b;
+}
+
+function peBuildPills(){
+  var active=CHS.filter(function(c){return Object.values(DATA).some(function(d){return d[c.k]>0;});});
+  document.getElementById('pe-pills').innerHTML=active.map(function(c){
+    var a=c.k===selCh.k,m=MID[c.k];
+    return '<button class="pmc-pill" style="border-color:'+m+';color:'+(a?'#fff':m)+';background:'+(a?m:'transparent')+'" onclick="pePickCh(\''+c.k+'\')">'+c.lb+'</button>';
+  }).join('');
+}
+
+function pePickCh(k){selCh=CHM[k];peBuildPills();peRender();}
+
+function peSetMode(m){
+  mode=m;
+  document.getElementById('pe-btn-ch').classList.toggle('active',m==='ch');
+  document.getElementById('pe-btn-dom').classList.toggle('active',m==='dom');
+  var dis=m==='dom';
+  ['pe-vrow','pe-pills'].forEach(function(id){
+    document.getElementById(id).style.opacity=dis?'0.35':'1';
+    document.getElementById(id).style.pointerEvents=dis?'none':'auto';
+  });
+  peRender();
+}
+
+function peSetView(v){
+  view=v;
+  document.getElementById('pe-vabs').classList.toggle('active',v==='abs');
+  document.getElementById('pe-vpct').classList.toggle('active',v==='pct');
+  peRender();
+}
+
+function peVal(name){
+  var d=DATA[name];if(!d)return 0;
+  return view==='abs'?d[selCh.k]:(d.t?Math.round(d[selCh.k]/d.t*100):0);
+}
+
+function peRender(){
+  if(!peGeo)return;
+  var d3i=window._d3pe;if(!d3i)return;
+  var depts=Object.keys(DATA);
+
+  if(mode==='ch'){
+    var vals={};
+    depts.forEach(function(n){vals[n]=peVal(n);});
+    var maxV=Math.max.apply(null,Object.values(vals).concat([1]));
+    var interp=d3i.interpolateRgb(selCh.lo,selCh.hi);
+    d3i.select('#pe-svg').selectAll('path.pmc-dept').attr('fill',function(feat){
+      var name=peIDS[feat.id];if(!name||!DATA[name])return EMPTY;
+      var v=vals[name];if(v===0)return EMPTY;
+      return interp(Math.max(Math.sqrt(v/maxV),0.12));
+    });
+    peLegCh(maxV);peKpisCh(depts,vals,maxV);
+  } else {
+    var domMap={};
+    depts.forEach(function(n){domMap[n]=peDom(n);});
+    d3i.select('#pe-svg').selectAll('path.pmc-dept').attr('fill',function(feat){
+      var name=peIDS[feat.id];if(!name||!DATA[name])return EMPTY;
+      var dom=domMap[name];if(!dom)return EMPTY;
+      var pct=DATA[name].t>0?DATA[name][dom.k]/DATA[name].t:0;
+      return d3i.interpolateRgb(dom.lo,dom.hi)(Math.max(0.15+pct*0.85,0.15));
+    });
+    peLegDom();peKpisDom(depts,domMap);
+  }
+  d3i.select('#pe-svg').selectAll('path.pmc-dept').attr('stroke','#ffffff').attr('stroke-width',0.5);
+  if(selDept)peSide(selDept);
+}
+
+function peLegCh(maxV){
+  var unit=view==='pct'?'%':'';
+  var d3i=window._d3pe;
+  var interp=d3i.interpolateRgb(selCh.lo,selCh.hi);
+  var stops=[0,0.17,0.34,0.5,0.67,0.84,1].map(function(t){return interp(t);});
+  document.getElementById('pe-leg').innerHTML='<div class="pmc-leg"><div class="pmc-legt" style="color:'+MID[selCh.k]+'">'+selCh.lb+' &middot; '+(view==='abs'?'numero de tecnicos':'% del departamento')+'</div><div class="pmc-hbar">'+stops.map(function(c){return '<div style="background:'+c+';flex:1"></div>';}).join('')+'</div><div class="pmc-hlab"><span>0'+unit+'</span><span>'+Math.round(maxV/2)+unit+'</span><span>'+maxV+unit+'</span></div></div>';
+}
+
+function peLegDom(){
+  var active=CHS.filter(function(c){return Object.values(DATA).some(function(d){return d[c.k]>0;});});
+  var items=active.map(function(c){return '<div class="pmc-legi"><div class="pmc-sw" style="background:'+MID[c.k]+'"></div>'+c.lb+'</div>';}).join('');
+  document.getElementById('pe-leg').innerHTML='<div class="pmc-leg"><div class="pmc-legt">Chapter dominante &middot; intensidad = concentracion</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:2px">'+items+'</div></div>';
+}
+
+function peKpisCh(depts,vals,maxV){
+  var unit=view==='pct'?'%':'';
+  var total=Object.values(DATA).reduce(function(s,d){return s+d[selCh.k];},0);
+  var active=Object.values(vals).filter(function(v){return v>0;}).length;
+  var topName=depts.reduce(function(a,b){return vals[a]>vals[b]?a:b;});
+  document.getElementById('pe-kpis').innerHTML=
+    '<div class="pmc-kpi" style="border-top-color:'+MID[selCh.k]+'"><div class="pmc-kpi-lbl">'+selCh.lb+' total PE</div><div class="pmc-kpi-val" style="color:'+MID[selCh.k]+'">'+total+'</div></div>'+
+    '<div class="pmc-kpi"><div class="pmc-kpi-lbl">Dptos. con presencia</div><div class="pmc-kpi-val">'+active+'</div></div>'+
+    '<div class="pmc-kpi"><div class="pmc-kpi-lbl">Dpto. lider</div><div class="pmc-kpi-val" style="font-size:14px">'+topName+'</div></div>'+
+    '<div class="pmc-kpi" style="border-top-color:'+MID[selCh.k]+'"><div class="pmc-kpi-lbl">Pico</div><div class="pmc-kpi-val" style="color:'+MID[selCh.k]+'">'+maxV+unit+'</div></div>';
+}
+
+function peKpisDom(depts,domMap){
+  var cnt={};CHS.forEach(function(c){cnt[c.k]=0;});
+  depts.forEach(function(n){var dom=domMap[n];if(dom)cnt[dom.k]++;});
+  var top=CHS.slice().sort(function(a,b){return cnt[b.k]-cnt[a.k];})[0];
+  document.getElementById('pe-kpis').innerHTML=
+    '<div class="pmc-kpi"><div class="pmc-kpi-lbl">Tecnicos PE</div><div class="pmc-kpi-val">80</div></div>'+
+    '<div class="pmc-kpi" style="border-top-color:'+MID[top.k]+'"><div class="pmc-kpi-lbl">Chapter mas extendido</div><div class="pmc-kpi-val" style="font-size:14px;color:'+MID[top.k]+'">'+top.lb+'</div></div>'+
+    '<div class="pmc-kpi"><div class="pmc-kpi-lbl">Dptos. con presencia</div><div class="pmc-kpi-val">'+depts.filter(function(n){return DATA[n].t>0;}).length+'</div></div>'+
+    '<div class="pmc-kpi"><div class="pmc-kpi-lbl">Chapters representados</div><div class="pmc-kpi-val">'+CHS.filter(function(c){return Object.values(DATA).some(function(d){return d[c.k]>0;});}).length+'</div></div>';
+}
+
+function peSide(name){
+  var d=DATA[name];if(!d)return;
+  var dom=peDom(name);
+  var sorted=CHS.filter(function(c){return d[c.k]>0;}).sort(function(a,b){return d[b.k]-d[a.k];});
+  var maxCh=sorted[0]?d[sorted[0].k]:1;
+  var bars=sorted.map(function(c){
+    return '<div class="pmc-br"><span class="pmc-brl">'+c.lb+'</span><div class="pmc-brt"><div class="pmc-brf" style="width:'+Math.round(d[c.k]/maxCh*100)+'%;background:'+MID[c.k]+(mode==='ch'&&c.k!==selCh.k?'55':'')+'"></div></div><span class="pmc-brn">'+d[c.k]+'</span></div>';
+  }).join('');
+  var selPct=d.t?Math.round(d[selCh.k]/d.t*100):0;
+  var domPct=dom&&d.t?Math.round(d[dom.k]/d.t*100):0;
+  document.getElementById('pe-side').innerHTML=
+    '<h3>'+name+'</h3>'+
+    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:10px">'+
+    '<div class="pmc-s2"><div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#6B5F8A">Total</div><div style="font-size:20px;font-weight:700;color:#1D1D1B">'+d.t+'</div></div>'+
+    '<div class="pmc-s2"><div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#6B5F8A">Senior+</div><div style="font-size:20px;font-weight:700;color:#1D1D1B">'+(d.t?Math.round(d.senior/d.t*100):0)+'%</div></div>'+
+    '</div>'+
+    '<div style="font-size:9px;color:#6B5F8A;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;font-weight:600">Chapters</div>'+
+    bars+
+    (mode==='ch'
+      ?'<div class="pmc-ins"><span style="color:'+MID[selCh.k]+';font-weight:600">'+selCh.lb+'</span>: <strong>'+d[selCh.k]+' tecnicos</strong> ('+selPct+'% del dpto.)</div>'
+      :'<div class="pmc-ins"><span style="color:'+(dom?MID[dom.k]:'#6B5F8A')+';font-weight:600">'+(dom?dom.lb:'?')+'</span> domina con <strong>'+domPct+'%</strong> del talento aqui.</div>');
+}
+
+function peInit(){
+  if(!window.d3||!window.topojson){setTimeout(peInit,100);return;}
+  window._d3pe=window.d3;
+  fetch('https://cdn.jsdelivr.net/npm/datamaps@0.5.10/src/js/data/per.topo.json')
+    .then(function(r){return r.json();})
+    .then(function(topo){
+      var key=Object.keys(topo.objects)[0];
+      peGeo=window.topojson.feature(topo,topo.objects[key]);
+      peBuildIDS(peGeo.features);
+      var svg=window.d3.select('#pe-svg');
+      var proj=window.d3.geoMercator().fitSize([380,560],peGeo);
+      var pathGen=window.d3.geoPath(proj);
+      var tip=document.getElementById('pmc-tip');
+      var wrap=document.getElementById('pmc-wrap');
+      svg.selectAll('path.pmc-dept').data(peGeo.features).join('path')
+        .attr('class','pmc-dept').attr('d',pathGen)
+        .on('mousemove',function(ev,feat){
+          var name=peIDS[feat.id];var d=DATA[name];if(!d)return;
+          var dom=peDom(name);var v=peVal(name);var u=view==='pct'?'%':'';
+          var r=wrap.getBoundingClientRect();
+          tip.style.display='block';
+          tip.style.left=(ev.clientX-r.left+12)+'px';
+          tip.style.top=(ev.clientY-r.top-10)+'px';
+          tip.innerHTML='<strong>'+name+'</strong> &middot; '+d.t+' tecnicos<br>'+(mode==='ch'?'<span style="color:'+MID[selCh.k]+'">'+selCh.lb+': <strong>'+v+u+'</strong></span>':'Dom.: <span style="color:'+(dom?MID[dom.k]:'#333')+';font-weight:600">'+(dom?dom.lb+'('+( dom&&d.t?Math.round(d[dom.k]/d.t*100):0)+'%)':'?')+'</span>');
+        })
+        .on('mouseleave',function(){tip.style.display='none';})
+        .on('click',function(ev,feat){
+          var name=peIDS[feat.id];if(!DATA[name])return;
+          selDept=name;
+          svg.selectAll('path.pmc-dept').attr('stroke','#ffffff').attr('stroke-width',0.5);
+          window.d3.select(this).attr('stroke','#330072').attr('stroke-width',2);
+          peSide(name);
+        });
+      peBuildPills();peRender();
+    })
+    .catch(function(e){
+      document.getElementById('pmc-wrap').innerHTML='<p style="color:#6B5F8A;padding:20px">Error cargando mapa: '+e.message+'</p>';
+    });
+}
+
+if(document.readyState==='complete'){peInit();}else{window.addEventListener('load',peInit);}
+window.pePickCh=pePickCh;
+window.peSetMode=peSetMode;
+window.peSetView=peSetView;
+</script>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+</body></html>

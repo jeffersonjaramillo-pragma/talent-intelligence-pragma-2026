@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pragma · Talent Intelligence 2025</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ac:#6429CD;--a2:#8B4FE8;--a3:#330072;--a4:#A67FFF;
+  --gd:#C9A8FF;--tx:#1D1D1B;--mu:#6B5F8A;--sf:#F5F4F9;--bg:#FFFFFF;
+}
+html,body{height:100%;font-family:'Poppins',sans-serif;background:var(--bg);color:var(--tx);overflow-x:hidden}
+
+/* ── HERO BG ── */
+.hero{
+  min-height:100vh;
+  background: linear-gradient(135deg, #0D0020 0%, #1a0040 40%, #2d006b 70%, #330072 100%);
+  display:flex;flex-direction:column;
+  position:relative;overflow:hidden;
+}
+
+/* animated orbs */
+.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.35;animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:#6429CD;top:-100px;right:-100px;animation-delay:0s}
+.orb2{width:400px;height:400px;background:#A67FFF;bottom:-80px;left:-80px;animation-delay:2s}
+.orb3{width:300px;height:300px;background:#330072;top:40%;left:30%;animation-delay:4s}
+@keyframes float{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-30px) scale(1.05)}}
+
+/* grid overlay */
+.grid-overlay{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size:60px 60px;
+}
+
+/* ── NAV ── */
+nav{
+  position:relative;z-index:10;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:28px 60px;
+}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-mark{
+  width:40px;height:40px;border-radius:10px;
+  background:linear-gradient(135deg,#6429CD,#A67FFF);
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;font-weight:900;color:#fff;letter-spacing:-1px;
+}
+.logo-text{font-size:20px;font-weight:700;color:#fff;letter-spacing:.02em}
+.logo-text span{color:#A67FFF}
+.nav-badge{
+  font-size:11px;padding:5px 14px;border-radius:20px;
+  border:1px solid rgba(166,127,255,.4);color:#C9A8FF;
+  font-weight:500;letter-spacing:.06em;
+}
+
+/* ── HERO CONTENT ── */
+.hero-body{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:60px 40px;position:relative;z-index:5;text-align:center;
+}
+.hero-eyebrow{
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:#A67FFF;font-weight:600;margin-bottom:20px;
+  display:flex;align-items:center;gap:8px;
+}
+.hero-eyebrow::before,.hero-eyebrow::after{content:'';width:30px;height:1px;background:#A67FFF;opacity:.5}
+h1{
+  font-size:clamp(36px,6vw,72px);font-weight:800;color:#fff;
+  line-height:1.08;margin-bottom:24px;letter-spacing:-.02em;
+}
+h1 span{
+  background:linear-gradient(90deg,#A67FFF,#C9A8FF,#8B4FE8);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.hero-sub{
+  font-size:clamp(15px,2vw,18px);color:rgba(255,255,255,.6);
+  max-width:580px;line-height:1.7;margin-bottom:56px;font-weight:400;
+}
+.hero-stats{
+  display:flex;gap:48px;margin-bottom:64px;justify-content:center;flex-wrap:wrap;
+}
+.hstat{text-align:center}
+.hstat-val{font-size:40px;font-weight:800;color:#fff;line-height:1}
+.hstat-lbl{font-size:11px;color:rgba(255,255,255,.45);margin-top:4px;text-transform:uppercase;letter-spacing:.1em}
+.hstat-divider{width:1px;background:rgba(255,255,255,.1);height:50px;align-self:center}
+
+/* ── CARDS ── */
+.cards{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;width:100%;max-width:860px}
+.card{
+  flex:1;min-width:300px;max-width:400px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(166,127,255,.2);
+  border-radius:20px;padding:32px;
+  text-decoration:none;color:inherit;
+  transition:all .3s ease;
+  position:relative;overflow:hidden;
+  backdrop-filter:blur(12px);
+}
+.card::before{
+  content:'';position:absolute;inset:0;border-radius:20px;
+  background:linear-gradient(135deg,rgba(100,41,205,.15),rgba(166,127,255,.05));
+  opacity:0;transition:opacity .3s;
+}
+.card:hover{transform:translateY(-6px);border-color:rgba(166,127,255,.5);box-shadow:0 24px 60px rgba(100,41,205,.3);}
+.card:hover::before{opacity:1}
+.card-flag{font-size:36px;margin-bottom:16px;display:block}
+.card-country{font-size:22px;font-weight:700;color:#fff;margin-bottom:6px}
+.card-desc{font-size:13px;color:rgba(255,255,255,.5);line-height:1.6;margin-bottom:24px}
+.card-stats{display:flex;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.cstat{background:rgba(255,255,255,.06);border-radius:10px;padding:10px 14px;flex:1;min-width:80px}
+.cstat-val{font-size:20px;font-weight:700;color:#A67FFF}
+.cstat-lbl{font-size:10px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+.card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px}
+.tag{font-size:10px;padding:3px 10px;border-radius:20px;border:1px solid rgba(166,127,255,.25);color:rgba(255,255,255,.55);font-weight:500}
+.card-btn{
+  display:flex;align-items:center;justify-content:space-between;
+  background:linear-gradient(90deg,#6429CD,#8B4FE8);
+  color:#fff;border-radius:10px;padding:12px 18px;
+  font-size:13px;font-weight:600;transition:opacity .2s;
+}
+.card:hover .card-btn{opacity:.9}
+.card-btn svg{transition:transform .2s}
+.card:hover .card-btn svg{transform:translateX(4px)}
+
+/* ── FEATURES STRIP ── */
+.features{
+  position:relative;z-index:5;
+  display:flex;gap:0;justify-content:center;
+  border-top:1px solid rgba(255,255,255,.06);
+  flex-wrap:wrap;
+}
+.feat{
+  flex:1;min-width:160px;max-width:220px;
+  padding:28px 24px;text-align:center;
+  border-right:1px solid rgba(255,255,255,.06);
+}
+.feat:last-child{border-right:none}
+.feat-icon{font-size:22px;margin-bottom:8px}
+.feat-label{font-size:12px;color:rgba(255,255,255,.4);font-weight:500}
+
+/* ── FOOTER ── */
+footer{
+  background:#0a0015;
+  padding:24px 60px;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+  border-top:1px solid rgba(255,255,255,.05);
+}
+.foot-left{font-size:12px;color:rgba(255,255,255,.3)}
+.foot-left strong{color:rgba(255,255,255,.6)}
+.foot-right{font-size:11px;color:rgba(255,255,255,.2);letter-spacing:.06em;text-transform:uppercase}
+
+/* pulse dot */
+.pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:#A67FFF;margin-right:6px;vertical-align:middle;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+
+@media(max-width:640px){
+  nav{padding:20px 24px}
+  .hero-body{padding:40px 24px}
+  .hero-stats{gap:24px}
+  footer{padding:20px 24px;flex-direction:column;text-align:center}
+  .feat{min-width:130px}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="grid-overlay"></div>
+
+  <nav>
+    <div class="logo">
+      <div class="logo-mark">P</div>
+      <div class="logo-text">pragma<span>.ai</span></div>
+    </div>
+    <div class="nav-badge"><span class="pulse"></span>Talent Intelligence 2025</div>
+  </nav>
+
+  <div class="hero-body">
+    <div class="hero-eyebrow">Inteligencia de Talento</div>
+    <h1>Pragma<br><span>Talent Intelligence</span></h1>
+    <p class="hero-sub">Dashboards de análisis de talento técnico para los equipos de Colombia y Perú — universidades, empresas de origen, rutas de carrera y distribución geográfica.</p>
+
+    <div class="hero-stats">
+      <div class="hstat">
+        <div class="hstat-val">920</div>
+        <div class="hstat-lbl">Colaboradores</div>
+      </div>
+      <div class="hstat-divider"></div>
+      <div class="hstat">
+        <div class="hstat-val">9</div>
+        <div class="hstat-lbl">Chapters técnicos</div>
+      </div>
+      <div class="hstat-divider"></div>
+      <div class="hstat">
+        <div class="hstat-val">2</div>
+        <div class="hstat-lbl">Países</div>
+      </div>
+      <div class="hstat-divider"></div>
+      <div class="hstat">
+        <div class="hstat-val">10</div>
+        <div class="hstat-lbl">Pestañas de análisis</div>
+      </div>
+    </div>
+
+    <div class="cards">
+
+      <!-- Colombia -->
+      <a class="card" href="pragma_talent_colombia_2025.html">
+        <span class="card-flag">🇨🇴</span>
+        <div class="card-country">Colombia</div>
+        <div class="card-desc">Análisis completo del talento técnico en 24 departamentos, con mapa de calor interactivo por chapter y tendencias de sourcing.</div>
+        <div class="card-stats">
+          <div class="cstat"><div class="cstat-val">840</div><div class="cstat-lbl">Técnicos</div></div>
+          <div class="cstat"><div class="cstat-val">24</div><div class="cstat-lbl">Dptos.</div></div>
+          <div class="cstat"><div class="cstat-val">9</div><div class="cstat-lbl">Chapters</div></div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">Universidades</span>
+          <span class="tag">Empresas Fuente</span>
+          <span class="tag">Top 20 Rutas</span>
+          <span class="tag">Mapa de Calor</span>
+          <span class="tag">Última Exp.</span>
+        </div>
+        <div class="card-btn">
+          Ver dashboard Colombia
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </a>
+
+      <!-- Peru -->
+      <a class="card" href="pragma_talent_peru_2025.html">
+        <span class="card-flag">🇵🇪</span>
+        <div class="card-country">Perú</div>
+        <div class="card-desc">Análisis del talento técnico en las principales regiones de Perú, con correlaciones de empresas de origen y mapa departamental.</div>
+        <div class="card-stats">
+          <div class="cstat"><div class="cstat-val">80</div><div class="cstat-lbl">Técnicos</div></div>
+          <div class="cstat"><div class="cstat-val">11</div><div class="cstat-lbl">Regiones</div></div>
+          <div class="cstat"><div class="cstat-val">6</div><div class="cstat-lbl">Chapters</div></div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">Universidades</span>
+          <span class="tag">NTT Data</span>
+          <span class="tag">Rutas de Carrera</span>
+          <span class="tag">Mapa de Calor</span>
+          <span class="tag">Última Exp.</span>
+        </div>
+        <div class="card-btn">
+          Ver dashboard Perú
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="feat"><div class="feat-icon">🎓</div><div class="feat-label">Universidades de origen</div></div>
+    <div class="feat"><div class="feat-icon">🏢</div><div class="feat-label">Empresas fuente</div></div>
+    <div class="feat"><div class="feat-icon">🗺️</div><div class="feat-label">Mapa de calor</div></div>
+    <div class="feat"><div class="feat-icon">🔗</div><div class="feat-label">Rutas de carrera</div></div>
+    <div class="feat"><div class="feat-icon">📈</div><div class="feat-label">Correlaciones</div></div>
+    <div class="feat"><div class="feat-icon">🎯</div><div class="feat-label">Plan de acción</div></div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-left"><strong>Pragma S.A.</strong> · Talent Intelligence Platform · Datos a corte 2025</div>
+  <div class="foot-right">Uso interno · Confidencial</div>
+</footer>
+
+</body>
+</html>
